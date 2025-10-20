@@ -1,0 +1,7 @@
+# FridaInterceptor Ultimate - Python Dependencies
+# Install with: uv pip install -r requirements.txt
+# Or: pip install -r requirements.txt
+
+frida-tools>=12.0.0
+frida>=16.0.0
+colorama>=0.4.6  # For colored terminal output

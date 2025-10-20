@@ -1,0 +1,26 @@
+{
+    "Apps":  {
+                 "DoorDashDasher":  {
+                                     "Name":  "DoorDash Dasher",
+                                     "BundleID":  "com.doordash.dasher"
+                                   }
+             },
+    "Network":  {
+                    "SSHHost":  "127.0.0.1",
+                    "ProxyPort":  8000,
+                    "SSHUser":  "root",
+                    "WindowsIP":  "192.168.50.9",
+                    "iPhoneIP":  "192.168.50.130",
+                    "SSHPort":  22,
+                    "SSHPass":  "alpine",
+                    "FridaPort":  27042
+                },
+    "Settings":  {
+                     "HealthCheckInterval":  10,
+                     "LogLevel":  "INFO",
+                     "ShowDebugOutput":  false,
+                     "MaxRetries":  3,
+                     "AutoStartHTTPToolkit":  true,
+                     "RetryDelay":  5
+                 }
+}

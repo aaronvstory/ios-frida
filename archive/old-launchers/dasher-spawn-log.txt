@@ -1,0 +1,2537 @@
+========
+                         ULTIMATE DASHER MONITOR
+================================================================================
+
+This will capture EVERYTHING when you tap "Dash Now"
+
+Choose mode:
+  [1] SPAWN mode (App restarts - most reliable)
+  [2] ATTACH mode (Stay logged in)
+
+Enter 1 or 2: 1
+
+Starting SPAWN mode - app will restart...
+
+[+] Bundle ID: com.doordash.dasher
+[+] Script: ultimate-monitor.js
+[+] Connected to device: Apple iPhone
+[+] Spawning com.doordash.dasher...
+[ULTIMATE] Monitor script starting...
+[ULTIMATE] NSURLSession hooks installed
+[ULTIMATE] NSError monitoring installed
+[ULTIMATE] Analytics monitoring installed
+[ULTIMATE] iOS spoofed to 17.6.1
+
+========================================
+ULTIMATE MONITOR READY
+Tap 'Dash Now' to capture the error
+========================================
+
+[+] com.doordash.dasher spawned and script loaded. Press Ctrl+C to stop.
+[ANALYTICS] {
+    "_lastModified" = "2025-09-18T06:56:08.093Z";
+    analyticsNextEnabled = 1;
+    autoInstrumentationSettings =     {
+        disableTraffic = 0;
+        sampleRate = 0;
+    };
+    edgeFunction =     {
+    };
+    enabledMiddleware =     {
+    };
+    integrations =     {
+        Adjust =
+
+[REQUEST #1] GET https://cdn-settings.segment.com/v1/projects/JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj/settings
+[HEADERS] {}
+
+[RESPONSE #1] Status: 200 for https://cdn-settings.segment.com/v1/projects/JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj/settings
+[RESPONSE BODY] {"_lastModified":"2025-09-18T06:56:08.093Z","integrations":{"Amplitude":{"apiKey":"fa088f55082d6b7f0efa743c01ce0006","batchEvents":false,"eventUploadPeriodMillis":30000,"eventUploadThreshold":30,"grou...
+[ANALYTICS] {
+    "_lastModified" = "2025-09-18T06:56:08.093Z";
+    analyticsNextEnabled = 1;
+    autoInstrumentationSettings =     {
+        disableTraffic = 0;
+        sampleRate = 0;
+    };
+    edgeFunction =     {
+    };
+    enabledMiddleware =     {
+    };
+    integrations =     {
+        Adjust =
+
+[REQUEST #2] POST https://o17585.ingest.sentry.io/api/5730038/envelope/
+[HEADERS] {"User-Agent":"sentry.cocoa/0.0.1","Content-Encoding":"gzip","Content-Type":"application/x-sentry-envelope","X-Sentry-Auth":"Sentry sentry_version=7,sentry_client=sentry.cocoa/0.0.1,sentry_key=5cb7a18341584d6daf4c3106b9cc05c6"}
+[ANALYTICS] {
+    "is_active" = 0;
+    "is_anr_ongoing" = 0;
+    "is_debugging" = 0;
+    "is_sdk_running" = 1;
+    "os_version" = "17.5.1";
+    "release_name" = "com.doordash.dasher@2.391.0+240304";
+    "system_boot_timestamp" = "2025-09-19T05:10:48.000Z";
+    "vendor_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282
+
+[REQUEST #3] GET https://api.iterable.com/api/mobile/getRemoteConfiguration?systemVersion=17.6.1&packageName=com.doordash.dasher&SDKVersion=6.5.4&platform=iOS
+[HEADERS] {"Api-Key":"1c7faa53094348efb75e9e33a7767e7a","SDK-Version":"6.5.4","Content-Type":"application/json","SDK-Platform":"iOS","Sent-At":"1758294770","SDK-Request-Processor":"Online"}
+
+[REQUEST #4] GET https://api.iterable.com/api/inApp/getMessages?packageName=com.doordash.dasher&email=tomato3153@powerscrews.com&SDKVersion=6.5.4&systemVersion=17.6.1&platform=iOS&count=100
+[HEADERS] {"Api-Key":"1c7faa53094348efb75e9e33a7767e7a","SDK-Version":"6.5.4","Sent-At":"1758294770","Content-Type":"application/json","SDK-Request-Processor":"Online","SDK-Platform":"iOS"}
+[ANALYTICS] {
+    "attributes_blacklist" =     (
+        "ht_seattle_compliance_daily",
+        firstName,
+        "subscription_state",
+        etlDxRefereeProgressNestedTest,
+        "\U2018ExistingDx_UCG_Enrollment_Date\U2019",
+        "EXIT_FLAG_CRM_GEAR_PICKUP_ZOOMO",
+        "background_check_split_action
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = "";
+        targetApp = dasher;
+    };
+    level = info;
+    message = "m_applica
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = "";
+        reason = "on_dash";
+        status = "when_in_use";
+        targetApp
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    context =     {
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_language" = en;
+        "device_model" = "iPhone10.2";
+        "device_region" = US;
+        flavor = dasher;
+        "language_tag" = "en-US";
+
+[REQUEST #5] POST https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[HEADERS] {"Content-Type":"application/json","Accept":"application/json"}
+[BODY] {"app_version":"2.359.0","dv_names":["mobile-feature-multifeature-holdout","mobile-dv-telemetry-timeout-flag","mobile-feature-client-side-default"],"os":"iOS","legacy_namespaces":[],"context":{"device_region":"US","device_model":"iPhone10.2","device_id":"70106085-E8E7-4154-9DC1-D4DDC6E8B282","language_tag":"en-US","flavor":"dasher","device_language":"en"},"namespaces":[],"os_version":"17.6.1","exposures_enabled":true,"application":"dasher"}
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        buildNumber = 240304;
+        "dasher_id" = "";
+        installType = appStore;
+        release
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = "";
+        "dd_device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        targ
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    "_lastModified" = "2025-09-18T06:56:08.093Z";
+    analyticsNextEnabled = 1;
+    autoInstrumentationSettings =     {
+        disableTraffic = 0;
+        sampleRate = 0;
+    };
+    edgeFunction =     {
+    };
+    enabledMiddleware =     {
+    };
+    integrations =     {
+        Adjust =
+[ANALYTICS] {
+    attrs =     {
+        environment = appStore;
+        release = "com.doordash.dasher@2.391.0+240304";
+    };
+    did = "CC204429-45D9-4143-B9BB-8D5AE505FA5A";
+    errors = 0;
+    init = 1;
+    seq = 1;
+    sid = "594D698F-75A9-4706-B0C7-1EAA0CBE202C";
+    started = "2025-09-19T15:12:51.365Z";
+
+[ANALYTICS] {
+    attrs =     {
+        environment = appStore;
+        release = "com.doordash.dasher@2.391.0+240304";
+    };
+    did = "CC204429-45D9-4143-B9BB-8D5AE505FA5A";
+    errors = 0;
+    init = 1;
+    seq = 1;
+    sid = "594D698F-75A9-4706-B0C7-1EAA0CBE202C";
+    started = "2025-09-19T15:12:51.365Z";
+
+[ANALYTICS] {
+    attrs =     {
+        environment = appStore;
+        release = "com.doordash.dasher@2.391.0+240304";
+    };
+    did = "CC204429-45D9-4143-B9BB-8D5AE505FA5A";
+    errors = 0;
+    init = 1;
+    seq = 1;
+    sid = "594D698F-75A9-4706-B0C7-1EAA0CBE202C";
+    started = "2025-09-19T15:12:51.365Z";
+
+
+[REQUEST #6] GET https://cdn-settings.segment.com/v1/projects/JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj/settings
+[HEADERS] {}
+[ANALYTICS] {
+    "is_active" = 1;
+    "is_anr_ongoing" = 0;
+    "is_debugging" = 0;
+    "is_sdk_running" = 1;
+    "os_version" = "17.5.1";
+    "release_name" = "com.doordash.dasher@2.391.0+240304";
+    "system_boot_timestamp" = "2025-09-19T05:10:48.000Z";
+    "vendor_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[RESPONSE #6] Status: 200 for https://cdn-settings.segment.com/v1/projects/JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj/settings
+[RESPONSE BODY] {"_lastModified":"2025-09-18T06:56:08.093Z","integrations":{"Amplitude":{"apiKey":"fa088f55082d6b7f0efa743c01ce0006","batchEvents":false,"eventUploadPeriodMillis":30000,"eventUploadThreshold":30,"grou...
+[ANALYTICS] {
+    "_lastModified" = "2025-09-18T06:56:08.093Z";
+    analyticsNextEnabled = 1;
+    autoInstrumentationSettings =     {
+        disableTraffic = 0;
+        sampleRate = 0;
+    };
+    edgeFunction =     {
+    };
+    enabledMiddleware =     {
+    };
+    integrations =     {
+        Adjust =
+
+[REQUEST #7] GET https://api-dasher.doordash.com/v3/dashers/user_consent_status?segment_write_key=JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj
+[ANALYTICS] {
+    "api_key" = "107ff854-7073-4434-939a-42efa630b0ec";
+    "app_version" = "2.359.0";
+    "app_version_code" = "2.359.0.0";
+    device =     {
+        carrier = "<null>";
+        locale = "en_US";
+        model = "iPhone10,2";
+        "os_version" = "16.3.1";
+        resolution = 1080x1920;
+
+!!! FOUND 16.3.1 in analytics !!!
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"51F0CC3A-8273-40D0-95C2-DDFD93AFB5A4","x-correlation-id":"B538BB99-ADEA-418A-862C-2BC7CC5ED8A0-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"0598C305-5DD2-4134-B788-9896BBF9E4A5-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-b2a3c79216d11eb869385a00ad0ffd70-51a0f191a3401041-01"}
+
+[REQUEST #8] POST https://sdk.iad-06.braze.com/api/v3/data
+[HEADERS] {"Content-Type":"application/json","X-Braze-Req-Attempt":"1","X-Braze-TriggersRequest":"true","X-Braze-FeedRequest":"true","X-Braze-Api-Key":"107ff854-7073-4434-939a-42efa630b0ec","X-Braze-DataRequest":"true","X-Braze-Last-Req-Ms-Ago":"289985"}
+[BODY] {"api_key":"107ff854-7073-4434-939a-42efa630b0ec","app_version":"2.359.0","app_version_code":"2.359.0.0","device":{"carrier":null,"locale":"en_US","model":"iPhone10,2","os_version":"16.3.1","resolution":"1080x1920","time_zone":"America/Chicago"},"device_id":"A00749C4-4B48-440F-95B6-4CE7CA03823D","events":[{"data":{"d":299},"name":"se","session_id":"68158D53-D550-4ED7-8993-2715247904AB","time":1758294771.4549999,"user_id":"62043684"},{"name":"ss","session_id":"BA1E66CD-E81F-4FF4-922F-96D8402AFB65
+
+[REQUEST #9] POST https://sdk.iad-06.braze.com/api/v3/content_cards/sync
+[HEADERS] {"Content-Type":"application/json","X-Braze-ContentCardsRequest":"true","BRAZE-SYNC-RETRY-COUNT":"0","X-Braze-Req-Attempt":"1","X-Braze-Api-Key":"107ff854-7073-4434-939a-42efa630b0ec","X-Braze-DataRequest":"true","X-Braze-Last-Req-Ms-Ago":"298983"}
+[BODY] {"api_key":"107ff854-7073-4434-939a-42efa630b0ec","app_version":"2.359.0","app_version_code":"2.359.0.0","device_id":"A00749C4-4B48-440F-95B6-4CE7CA03823D","last_card_updated_at":0,"last_full_sync_at":0,"sdk_version":"7.5.0","time":1758294771.4887829,"user_id":"62043684"}
+[ANALYTICS] {
+    "device_info" =     {
+        "app_name" = "com.doordash.dasher";
+        "app_version" = "2.359.0";
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_model" = iPhone;
+        "os_name" = iOS;
+        "os_version" = "17.6.1";
+    };
+    "event_type" = login;
+    mes
+[ANALYTICS] {
+    "device_info" =     {
+        "app_name" = "com.doordash.dasher";
+        "app_version" = "2.359.0";
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_model" = iPhone;
+        "os_name" = iOS;
+        "os_version" = "17.6.1";
+    };
+    "event_type" = login;
+    mes
+[ANALYTICS] {
+    "device_info" =     {
+        "app_name" = "com.doordash.dasher";
+        "app_version" = "2.359.0";
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_model" = iPhone;
+        "os_name" = iOS;
+        "os_version" = "17.6.1";
+    };
+    "event_type" = login;
+    mes
+[ANALYTICS] {
+    "device_info" =     {
+        "app_name" = "com.doordash.dasher";
+        "app_version" = "2.359.0";
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_model" = iPhone;
+        "os_name" = iOS;
+        "os_version" = "17.6.1";
+    };
+    "event_type" = login;
+    mes
+
+[REQUEST #10] POST https://api-dasher.doordash.com/v1/attest_client_authed/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"51F0CC3A-8273-40D0-95C2-DDFD93AFB5A4","x-correlation-id":"D0F0AD9C-B5A6-45A4-8AF5-D3D8F64FB944-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"364E8ADF-8CF8-4349-9F24-69DC88A8D72F-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-4f7ed65c2c942ceb9d7cb9619bb37421-678bbd381fb1f72d-01"}
+[BODY] {"timestamp":"1758294771550","message":"AgAAAE7NBLc44\/FLbSFNOsFgq6UEUNk0+me89vLfv5ZingpyOOkgXXXyjPzYTzWmWSu+BYqcD47byirLZ++3dJccpF99hWppT7G5xAuU+y56WpSYsARnhSC1602ohuY3Xjfm1JQOFcPV4VDW2DTKLvuepXsZX71Y0uM\/x\/IEHicLI3usQhXZnokIpZ913aLm16fZYVxQkggAAPhuCDI0FkSYwOmKlX8zXqbIUP+y7f51gUzK1FtHflZ+RFSGIbBk0EYQ4bKefeQqFAT12oZnzPIf7bl7UmwrzJcU88AwFWLLfIa0\/KX01EDhJGkJuedJ4RujFBT3PsOJdXCUrTqkPYLpv5sHRlo7c80PQeBxtY+Pv\/BcaL9jNRy4y\/2VAWg1Tu54Rsh\/9ncMegxnV+ae2Zx6Q4ijAn1kzmXIHjfOUyd\/9tfMHsA2Jxb0Fwqktk6JOUmA
+
+[REQUEST #11] POST https://firebaseremoteconfig.googleapis.com/v1/projects/doordash-dasher/namespaces/firebase:fetch?key=AIzaSyAHDyraEc9qxGdMsKDcbV6jRGDhmhGD-Nk
+[HEADERS] {"Content-Type":"application/json","x-goog-firebase-installations-auth":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjE6ODUxNzUwMTAzMDM6aW9zOjZjNDEyN2ZmZTg3MGQ3YTczMTlkY2EiLCJleHAiOjE3NTg4MzgzMDEsImZpZCI6ImVjdzJRUEVBSDB1Tm5lUHRPd3BxNWoiLCJwcm9qZWN0TnVtYmVyIjo4NTE3NTAxMDMwM30.AB2LPV8wRgIhAOR0_46xWVAYnxGRo2BWzQZlNW-l5P8z_y42iak9yVLZAiEA27rFxLlleP169BLJm3juJyA7I_2d8A-F2IhxhOyVpok","X-Ios-Bundle-Identifier":"com.doordash.dasher","X-Firebase-RC-Fetch-Type":"BASE/1","If-None-Match":"etag-doordash-dasher-firebase-fetch--1470391531","Content-Encoding":"gzip","Accept-Encoding":"gzip"}
+
+[RESPONSE #2] Status: 200 for https://o17585.ingest.sentry.io/api/5730038/envelope/
+[RESPONSE BODY] {}...
+
+[RESPONSE #5] Status: 200 for https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[RESPONSE BODY] {"context":{"application":"dasher","app_version":"2.359.0","os":"iOS","os_version":"17.6.1","device_region":"US","device_model":"iPhone10.2","device_id":"70106085-E8E7-4154-9DC1-D4DDC6E8B282","languag...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 444;
+        "request_start" = "2025-09-19T15:12:51.266Z";
+        "response_body_size" = 506;
+        "status_code" = 200;
+        url = "https://dynamic-values-edge-service.doo
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    "country_code" = US;
+    "dasher_id" = 62043684;
+    "default_starting_point_id" = 5637;
+    "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+    "device_language" = en;
+    "device_model" = "iPhone10.2";
+    "device_region" = US;
+
+
+[RESPONSE #7] Status: 200 for https://api-dasher.doordash.com/v3/dashers/user_consent_status?segment_write_key=JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "segment_write_key=JpzeSkaAM9EDBye44ip3jyeLG2vFrxqj";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:51.516Z";
+        "response_body_size" = 113;
+        "
+[RESPONSE BODY] {"consents":[{"consent_policy":"consent_policy_do_not_sell","opt_out":null}],"segment_integrations":{"All":true}}...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 3496;
+        "request_start" = "2025-09-19T15:12:51.573Z";
+        "response_body_size" = 34;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/atte
+
+[RESPONSE #10] Status: 200 for https://api-dasher.doordash.com/v1/attest_client_authed/
+[RESPONSE BODY] {"refresh_in":43200,"retry":false}...
+[ANALYTICS] (
+    "ios_dx_add_geolocation_to_traces",
+        {
+        "additional_exposures" =         (
+        );
+        "exposure_enabled" = 0;
+        name = "ios_dx_add_geolocation_to_traces";
+        value = 1;
+    },
+    "ios_pin_code_verification_for_fraud_mp_hitm",
+        {
+        "additional_expo
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    context =     {
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_language" = en;
+        "device_model" = "iPhone10.2";
+        "device_region" = US;
+        flavor = dasher;
+        "language_tag" = "en-US";
+
+[REQUEST #12] POST https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[HEADERS] {"Content-Type":"application/json","Accept":"application/json"}
+[BODY] {"evaluation_options":{"reference_exposure_enabled":false,"client_side_default_enabled":true},"app_version":"2.359.0","dv_names":["ios_dx_trust_aus_idv_enabled","surface_place_names_dx","ios_dx_pickup_receipt_photo_ios17_black_camera_bypass","ios_dx_shelf_scan_tool_detection_model_url","ios_dx_dropoff_geo_fence_check_for_hitm_drive_orders","dx_enable_zone_busyness","dx_iguazu_centralized_scheduling","enable_order_problem_reporting_in_cx_dx_chat","ios_dx_dsd_improved_red_card_prompt","ios_dx_chal
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = "";
+        "encoded_path" = login;
+        "fetch_duration_millis" = "29.4759273
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #13] POST https://o17585.ingest.sentry.io/api/5730038/envelope/
+[HEADERS] {"User-Agent":"sentry.cocoa/0.0.1","Content-Encoding":"gzip","Content-Type":"application/x-sentry-envelope","X-Sentry-Auth":"Sentry sentry_version=7,sentry_client=sentry.cocoa/0.0.1,sentry_key=5cb7a18341584d6daf4c3106b9cc05c6"}
+
+[RESPONSE #9] Status: 201 for https://sdk.iad-06.braze.com/api/v3/content_cards/sync
+[RESPONSE BODY] {"cards":[],"last_full_sync_at":0,"last_card_updated_at":0}...
+
+[REQUEST #14] GET https://api-dasher.doordash.com/v3/dasher/me/vehicles/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"78F600A9-39D3-4B97-A4DC-6257B5ED34FD-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"B43AECF5-A202-490D-8918-A0CECC093B2E-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-e15a9f6534b255691e909040e132c9c3-e7b8b62d6bb32474-01"}
+
+[RESPONSE #8] Status: 201 for https://sdk.iad-06.braze.com/api/v3/data
+[RESPONSE BODY] {"feed":[],"triggers":[]}...
+
+[RESPONSE #13] Status: 200 for https://o17585.ingest.sentry.io/api/5730038/envelope/
+[RESPONSE BODY] {}...
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+    };
+    level = info;
+    message = "m_a
+
+[REQUEST #15] POST https://sdk.iad-06.braze.com/api/v3/data
+[HEADERS] {"X-Braze-Req-Attempt":"1","X-Braze-Last-Req-Ms-Ago":"293","Content-Type":"application/json","X-Braze-Api-Key":"107ff854-7073-4434-939a-42efa630b0ec"}
+[BODY] {"api_key":"107ff854-7073-4434-939a-42efa630b0ec","app_version":"2.359.0","app_version_code":"2.359.0.0","device":{"ios_push_auth":"authorized","remote_notification_enabled":true},"device_id":"A00749C4-4B48-440F-95B6-4CE7CA03823D","sdk_version":"7.5.0","time":1758294771.779803}
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "key=AIzaSyAHDyraEc9qxGdMsKDcbV6jRGDhmhGD-Nk";
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 516;
+        "request_start" = "2025-09-19T15:12:51.589Z";
+        "response_body_size" = 56;
+        "statu
+
+[RESPONSE #11] Status: 200 for https://firebaseremoteconfig.googleapis.com/v1/projects/doordash-dasher/namespaces/firebase:fetch?key=AIzaSyAHDyraEc9qxGdMsKDcbV6jRGDhmhGD-Nk
+[RESPONSE BODY] {
+  "state": "NO_CHANGE",
+  "templateVersion": "1082"
+}
+...
+[ANALYTICS] {
+    "GMP_project_Identifier" = "1:85175010303:ios:6c4127ffe870d7a7319dca";
+    "app_build" = 240304;
+    "app_version" = "2.359.0";
+    "device_locale" = "en_US";
+    "os_version" = "17.6.1";
+}
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 16707;
+        "request_start" = "2025-09-19T15:12:51.696Z";
+        "response_body_size" = 48853;
+        "status_code" = 200;
+        url = "https://dynamic-values-edge-service
+
+[RESPONSE #12] Status: 200 for https://dynamic-values-edge-service.doordash.com/v1/experiments/
+
+[RESPONSE #4] Status: 429 for https://api.iterable.com/api/inApp/getMessages?packageName=com.doordash.dasher&email=tomato3153@powerscrews.com&SDKVersion=6.5.4&systemVersion=17.6.1&platform=iOS&count=100
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "packageName=com.doordash.dasher&email=tomato3153@powerscrews.com&SDKVersion=6.5.4&systemVersion=17.6.1&platform=iOS&count=100";
+        method = GET;
+        reason = "client error";
+        "request_body_size" = 0;
+        "request_sta
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "systemVersion=17.6.1&packageName=com.doordash.dasher&SDKVersion=6.5.4&platform=iOS";
+        method = GET;
+        reason = unauthorized;
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:50.790Z";
+        "re
+[RESPONSE BODY] {"context":{"application":"dasher","app_version":"2.359.0","os":"iOS","os_version":"17.6.1","device_region":"US","device_model":"iPhone10.2","device_id":"70106085-E8E7-4154-9DC1-D4DDC6E8B282","languag...
+[ERROR RESPONSE] Status 429
+[ERROR BODY] {"msg":"Exceeded rate limit.","code":"RateLimitExceeded"}
+
+
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:51.752Z";
+        "response_body_size" = 366;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v3/dasher/
+
+[RESPONSE #14] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/vehicles/
+
+[RESPONSE #3] Status: 401 for https://api.iterable.com/api/mobile/getRemoteConfiguration?systemVersion=17.6.1&packageName=com.doordash.dasher&SDKVersion=6.5.4&platform=iOS
+[ERROR RESPONSE] Status 401
+[ERROR BODY] {"msg":"Disabled API key or insufficient privileges","code":"BadApiKey","params":{"ip":"23.160.24.185","endpoint":"/api/mobile/getRemoteConfiguration","apiKeyIdentifier":"a7767e7a","apiKeyType":"Mobile"}}
+[RESPONSE BODY] [{"id":84399152,"dasher_id":62043684,"vehicle_type_id":1,"make":"","model":"","year":"","color":"","registration_expiration":"","registration_img_uploaded_at":"","vehicle_type":{"id":1,"name":"car","i...
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    "country_code" = US;
+    "dasher_id" = 62043684;
+    "default_starting_point_id" = 5637;
+    "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+    "device_language" = en;
+    "device_model" = "iPhone10.2";
+    "device_region" = US;
+
+[ANALYTICS] (
+    "dx_ios_pinwheel_integration_enabled",
+        {
+        "additional_exposures" =         (
+        );
+        "exposure_enabled" = 0;
+        name = "dx_ios_pinwheel_integration_enabled";
+        value = 0;
+    },
+    "ios_dsd_bottom_sheet_hide_footer_in_edit_mode",
+        {
+        "additio
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    context =     {
+        "country_code" = US;
+        "dasher_id" = 62043684;
+        "default_starting_point_id" = 5637;
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_language" = en;
+        "device_model"
+
+[REQUEST #16] POST https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[HEADERS] {"Content-Type":"application/json","Accept":"application/json"}
+[BODY] {"app_version":"2.359.0","dv_names":["mobile-feature-multifeature-holdout","mobile-dv-telemetry-timeout-flag","mobile-feature-client-side-default"],"os":"iOS","legacy_namespaces":[],"context":{"flavor":"dasher","device_region":"US","language_tag":"en-US","user_id":"2103969838","market_id":"9","dasher_id":"62043684","submarket_id":"2216","device_language":"en","device_id":"70106085-E8E7-4154-9DC1-D4DDC6E8B282","default_starting_point_id":"5637","country_code":"US","device_model":"iPhone10.2"},"na
+
+[RESPONSE #15] Status: 201 for https://sdk.iad-06.braze.com/api/v3/data
+[RESPONSE BODY] {}...
+
+[RESPONSE #16] Status: 200 for https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[RESPONSE BODY] {"context":{"application":"dasher","app_version":"2.359.0","os":"iOS","os_version":"17.6.1","flavor":"dasher","device_region":"US","language_tag":"en-US","user_id":"2103969838","market_id":"9","dasher...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 583;
+        "request_start" = "2025-09-19T15:12:51.920Z";
+        "response_body_size" = 645;
+        "status_code" = 200;
+        url = "https://dynamic-values-edge-service.doo
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    "country_code" = US;
+    "dasher_id" = 62043684;
+    "default_starting_point_id" = 5637;
+    "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+    "device_language" = en;
+    "device_model" = "iPhone10.2";
+    "device_region" = US;
+
+[ANALYTICS] (
+    "dx_ios_persist_verified_info_enabled",
+        {
+        "additional_exposures" =         (
+        );
+        "exposure_enabled" = 0;
+        name = "dx_ios_persist_verified_info_enabled";
+        value = "<null>";
+    },
+    "ios_dx_drop_off_photo_quality_pitch",
+        {
+        "addition
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    context =     {
+        "country_code" = US;
+        "dasher_id" = 62043684;
+        "default_starting_point_id" = 5637;
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_language" = en;
+        "device_model"
+
+[REQUEST #17] POST https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[HEADERS] {"Content-Type":"application/json","Accept":"application/json"}
+[BODY] {"evaluation_options":{"reference_exposure_enabled":false,"client_side_default_enabled":true},"app_version":"2.359.0","dv_names":["ios_dx_trust_aus_idv_enabled","surface_place_names_dx","ios_dx_pickup_receipt_photo_ios17_black_camera_bypass","ios_dx_shelf_scan_tool_detection_model_url","ios_dx_dropoff_geo_fence_check_for_hitm_drive_orders","dx_enable_zone_busyness","dx_iguazu_centralized_scheduling","enable_order_problem_reporting_in_cx_dx_chat","ios_dx_dsd_improved_red_card_prompt","ios_dx_chal
+
+[RESPONSE #17] Status: 200 for https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 16846;
+        "request_start" = "2025-09-19T15:12:52.049Z";
+        "response_body_size" = 61149;
+        "status_code" = 200;
+        url = "https://dynamic-values-edge-service
+[RESPONSE BODY] {"context":{"application":"dasher","app_version":"2.359.0","os":"iOS","os_version":"17.6.1","flavor":"dasher","device_region":"US","language_tag":"en-US","market_id":"9","user_id":"2103969838","dasher...
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    "country_code" = US;
+    "dasher_id" = 62043684;
+    "default_starting_point_id" = 5637;
+    "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+    "device_language" = en;
+    "device_model" = "iPhone10.2";
+    "device_region" = US;
+
+[ANALYTICS] (
+    "ios_dx_quiet_notifications_while_driving_types",
+        {
+        "additional_exposures" =         (
+        );
+        "exposure_enabled" = 0;
+        name = "ios_dx_quiet_notifications_while_driving_types";
+        value = "itbl,proactive_incentives_update,arm_message_dasher_push,post_tips
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+[ANALYTICS] {
+    "is_active" = 1;
+    "is_anr_ongoing" = 1;
+    "is_debugging" = 0;
+    "is_sdk_running" = 1;
+    "os_version" = "17.5.1";
+    "release_name" = "com.doordash.dasher@2.391.0+240304";
+    "system_boot_timestamp" = "2025-09-19T05:10:48.000Z";
+    "vendor_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282
+[ANALYTICS] (
+        {
+        anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+        eventPriority = 2;
+        messageId = "EA9AA7EE-172F-4984-BA67-1B7F257F7DA6";
+        name = "experiment_exposure";
+        properties =         {
+            "app_version" = "2.359.0";
+            application = dashe
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    breadcrumbs =     (
+                {
+            category = started;
+            level = info;
+            message = "Breadcrumb Tracking";
+            timestamp = "2025-09-19T15:12:50.730Z";
+            type = debug;
+        },
+                {
+            category = "event_tracker";
+
+[ANALYTICS] {
+    "event_id" = 2c922e1268af452c884cbfb8dd267de2;
+    sdk =     {
+        name = "sentry.cocoa";
+        packages =         {
+            name = "carthage:getsentry/sentry.cocoa";
+            version = "0.0.1";
+        };
+        version = "0.0.1";
+    };
+    trace =     {
+        environment = a
+[ANALYTICS] {
+    "event_id" = 2c922e1268af452c884cbfb8dd267de2;
+    sdk =     {
+        name = "sentry.cocoa";
+        packages =         {
+            name = "carthage:getsentry/sentry.cocoa";
+            version = "0.0.1";
+        };
+        version = "0.0.1";
+    };
+    "sent_at" = "2025-09-19T15:12:54.548Z
+
+[REQUEST #18] POST https://o17585.ingest.sentry.io/api/5730038/envelope/
+[HEADERS] {"User-Agent":"sentry.cocoa/0.0.1","Content-Encoding":"gzip","Content-Type":"application/x-sentry-envelope","X-Sentry-Auth":"Sentry sentry_version=7,sentry_client=sentry.cocoa/0.0.1,sentry_key=5cb7a18341584d6daf4c3106b9cc05c6"}
+
+[RESPONSE #18] Status: 200 for https://o17585.ingest.sentry.io/api/5730038/envelope/
+[RESPONSE BODY] {"id":"2c922e1268af452c884cbfb8dd267de2"}...
+
+[REQUEST #19] GET https://api-dasher.doordash.com/v1/dashers/me/referral_detail/?utm_medium=banner-view&extra=referrer_bonus_monetary_fields&extra=referree_bonus_monetary_fields&extra=expected_hourly_earnings_monetary_fields
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"744E0C45-76F3-4B41-80AF-38D1E5EF98DE-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"B8691ED1-F5A4-4498-88FC-401D0D8C0CE3-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-e15a9f6534b255691e909040e132c9c3-90899b268d1af737-01"}
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "utm_medium=banner-view&extra=referrer_bonus_monetary_fields&extra=referree_bonus_monetary_fields&extra=expected_hourly_earnings_monetary_fields";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+
+
+[RESPONSE #19] Status: 200 for https://api-dasher.doordash.com/v1/dashers/me/referral_detail/?utm_medium=banner-view&extra=referrer_bonus_monetary_fields&extra=referree_bonus_monetary_fields&extra=expected_hourly_earnings_monetary_fields
+[RESPONSE BODY] {"referrer_bonus":0,"referree_bonus":0,"num_deliveries_required":0,"days_allotted":0,"url_sms":"https://drd.sh/2uHgm4tgW3DtB4GR/","url_facebook":"https://drd.sh/04acUW6IYw95hJTr/","url_twitter":"https...
+
+[REQUEST #20] GET https://api-dasher.doordash.com/v1/version/?name=dasher-ios-app-store
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"77D6994B-9E8F-4D9A-B2A6-3062C6C2483D-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"593604FB-07C7-4D2F-AF3F-3456B568B839-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-87279ef9c8e4ee516ed2e757370f7301-e0cf1edd5c8553d1-01"}
+
+[REQUEST #21] GET https://api-dasher.doordash.com/v3/dasher/gas/stations/eligibility
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"1620BACF-22F2-4EAE-B75C-527C8B1A1104-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"55C34C0E-F9FD-4E10-9649-C3E1FF00F5A8-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-87279ef9c8e4ee516ed2e757370f7301-bf599c5ae5b0e253-01"}
+
+[REQUEST #22] POST https://otel-mobile.doordash.com/v1/traces
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[HEADERS] {"User-Agent":"OTel-OTLP-Exporter-Swift/0.20.0","Content-Encoding":"gzip","dd-api-token":"6B13DFE2-374C-4C69-AB71-9DD6CD02A2F2","Content-Type":"application/x-protobuf"}
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "preferred_languages" = "en-US";
+        targetApp = dasher;
+
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "name=dasher-ios-app-store";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:56.015Z";
+        "response_body_size" = 53;
+        "status_code" = 200;
+
+
+[RESPONSE #20] Status: 200 for https://api-dasher.doordash.com/v1/version/?name=dasher-ios-app-store
+[RESPONSE BODY] {"min_version":"2.353.0","current_version":"2.360.1"}...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:56.036Z";
+        "response_body_size" = 20;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v3/dasher/g
+
+[RESPONSE #21] Status: 200 for https://api-dasher.doordash.com/v3/dasher/gas/stations/eligibility
+[RESPONSE BODY] {"is_enabled":false}...
+
+[RESPONSE #22] Status: 200 for https://otel-mobile.doordash.com/v1/traces
+[RESPONSE BODY]
+...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 1786;
+        "request_start" = "2025-09-19T15:12:56.053Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://otel-mobile.doordash.com/v1/trac
+[ANALYTICS] {
+    color = "";
+    id = 84399152;
+    make = "";
+    model = "";
+    "registration_expiration" = "";
+    "vehicle_type" =     {
+        "friendly_name" = Car;
+        "icon_img_url" = "https://s3-us-west-2.amazonaws.com/doordash-static/img/car.png";
+        id = 1;
+        name = car;
+        "ne
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    "is_active" = 1;
+    "is_anr_ongoing" = 0;
+    "is_debugging" = 0;
+    "is_sdk_running" = 1;
+    "os_version" = "17.5.1";
+    "release_name" = "com.doordash.dasher@2.391.0+240304";
+    "system_boot_timestamp" = "2025-09-19T05:10:48.000Z";
+    "vendor_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        dasherID = 62043684;
+        "dasher_id" = 62043684;
+        dataSource = "from_cache";
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "crash_timestamp" = "2025-09-19T15:12:53Z";
+        "crashed_app_session_id" = "D6137204-01A6-4
+
+[REQUEST #23] GET https://api-dasher.doordash.com/v1/dasher-onboarding-checklist
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"3326B032-89BD-44D8-A1A5-C475323AAE3B-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"6C9460F2-B8D3-4EC3-AA57-A25D8F1B35FD-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cf6c07919d4b661fa4cf9f682c07b334-ee64d5817fb93527-01"}
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = tracing;
+    data =     {
+        "battery_level" = "0.84";
+        "battery_state" = charging;
+        "launch_source" = home;
+        "memory_usage_mb" = "0.0";
+        "network_constrained" = false;
+        "network_expensive" = false;
+        "network_state" = CONNECTED;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "file_id" = "DasherApp/HomeViewController.swift";
+        messa
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+    };
+    level = info;
+    message = "m_h
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:56.376Z";
+        "response_body_size" = 306;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dasher-
+
+[RESPONSE #23] Status: 200 for https://api-dasher.doordash.com/v1/dasher-onboarding-checklist
+[RESPONSE BODY] {"dasher_onboarding_context":{"unique_link":"V1DOrVRcP1gXnDfQ5cA9LL8echeeQ4tF0GCyvcC8zwEiOah2uK","country_shortname":"US"},"banner":{"banner_type":"BANNER_TYPE_SUCCESS","header":"You’re cleared to das...
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #24] GET https://api-dasher.doordash.com/v3/dasher/variables/?id=INSTANT_PAY_DELAY_ON_CC_CHANGE_IN_DAYS&id=PERSONA_DASH_REQUIRE_IDV_DL_ONLY_TEMPLATE_ID&id=DRIVE_PREASSIGN_REVEAL_BUFFER_IN_HOURS&id=DRIVE_PREASSIGN_REVEAL_SUBMARKETS&id=DASHER_PAY_V1_BREAKDOWN_HELP_URL&id=DRIVE_TIER_CUTOFF_DELIVERY_COUNT&id=EARLY_ASSIGN_REMINDER_TIME_IN_MINUTES&id=DASHER_SHOP_AND_DELIVER_SCAN_MANUAL_SUBSTITUTION_REFUND_BUTTON_THRESHOLD&id=DASHER_UNASSIGN_REASONS_LOCALIZED&id=DASHER_ACCEPT_TIMEOUT&id=DRIVE_TIER_CUTOFF_SCORE&id=DASHER_PAY_V1_BREAKDOWN_NO_TIPPING_HELP_URL&id=DASHER_SHOP_AND_DELIVER_POLLING_INTERVAL_IN_SECONDS_V2&id=DRIVE_PREASSIGN_REVEAL_OVERRIDE_DASHER_IDS&id=DASHER_TIME_MODE_TIMER_INTERVAL_IN_SECONDS&id=PERSONA_DASH_REQUIRE_IDV_SELFIE_ONLY_TEMPLATE_ID&id=DRIVE_PREASSIGN_REVEAL_TIME_24H&id=DASHER_GROUND_TRUTH_STOREOPS_STORES&id=DASHER_SHOP_AND_DELIVER_CART_INSTRUCTION_INTERVAL_IN_NANOSECONDS&id=DASHER_SHOP_AND_DELIVER_CONNECT_TO_WIFI_STORE_INFOS&id=DASHER_SAFETY_PROVIDER_CACHE_TIMEOUT&id=PERSONA_DX_PROFILE_PIC_TEMPLATE_ID&id=DASHER_CASH_ORDER_UNASSIGN_REASONS_LOCALIZED&id=PERSONA_DASH_REQUIRE_IDV_TEMPLATE_ID&id=DRIVE_TARGET_DROPOFF_WINDOW_START_DELTA_IN_MINUTES&id=IOS_DASHER_ATTEST_CRITICAL_ENDPOINTS&id=PERSONA_DRIVE_ALCOHOL_IDV_TEMPLATE_ID&id=DASHER_SHOP_AND_DELIVER_CONTACT_CX_FOR_ITEM_NOT_FOUND_THRESHOLD&id=DROPOFF_LOCAL_GEOFENCE_MAX_DISTANCE_THRESHOLD_IN_METERS
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"6FC3DD18-4C18-4A7A-81C7-4CDB93D27333-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"B70B69AC-143A-464C-920D-7399A28C85E7-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-87f6e612fad2380fbd535fc0d16f50e8-fc7a60a7fb9d742f-01"}
+
+[REQUEST #25] GET https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com
+[HEADERS] {"Request-Sent-Timestamp":"1758294776590","Accept":"application/json","Connection":"Keep-Alive"}
+
+[REQUEST #26] GET https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com
+[HEADERS] {"Request-Sent-Timestamp":"1758294776595","Accept":"application/json","Connection":"Keep-Alive"}
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #27] POST https://api-dasher.doordash.com/v2/chat/user
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"C8A68C18-5CA1-4E6B-81DC-25119790CC45-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"C530DD36-877F-429A-882A-924119F0C4B8-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-035f3e70b7551b1599f35ba5cfc6f098-a3ba71ddd6a6991e-01"}
+[BODY] {"dd_role_id":"62043684","platform":"ios","locale":"en-US","nick_name":"joshua b","app_version":"2.359.0","submarket_id":"2216","provider":"sendbird"}
+
+[RESPONSE #24] Status: 200 for https://api-dasher.doordash.com/v3/dasher/variables/?id=INSTANT_PAY_DELAY_ON_CC_CHANGE_IN_DAYS&id=PERSONA_DASH_REQUIRE_IDV_DL_ONLY_TEMPLATE_ID&id=DRIVE_PREASSIGN_REVEAL_BUFFER_IN_HOURS&id=DRIVE_PREASSIGN_REVEAL_SUBMARKETS&id=DASHER_PAY_V1_BREAKDOWN_HELP_URL&id=DRIVE_TIER_CUTOFF_DELIVERY_COUNT&id=EARLY_ASSIGN_REMINDER_TIME_IN_MINUTES&id=DASHER_SHOP_AND_DELIVER_SCAN_MANUAL_SUBSTITUTION_REFUND_BUTTON_THRESHOLD&id=DASHER_UNASSIGN_REASONS_LOCALIZED&id=DASHER_ACCEPT_TIMEOUT&id=DRIVE_TIER_CUTOFF_SCORE&id=DASHER_PAY_V1_BREAKDOWN_NO_TIPPING_HELP_URL&id=DASHER_SHOP_AND_DELIVER_POLLING_INTERVAL_IN_SECONDS_V2&id=DRIVE_PREASSIGN_REVEAL_OVERRIDE_DASHER_IDS&id=DASHER_TIME_MODE_TIMER_INTERVAL_IN_SECONDS&id=PERSONA_DASH_REQUIRE_IDV_SELFIE_ONLY_TEMPLATE_ID&id=DRIVE_PREASSIGN_REVEAL_TIME_24H&id=DASHER_GROUND_TRUTH_STOREOPS_STORES&id=DASHER_SHOP_AND_DELIVER_CART_INSTRUCTION_INTERVAL_IN_NANOSECONDS&id=DASHER_SHOP_AND_DELIVER_CONNECT_TO_WIFI_STORE_INFOS&id=DASHER_SAFETY_PROVIDER_CACHE_TIMEOUT&id=PERSONA_DX_PROFILE_PIC_TEMPLATE_ID&id=DASHER_CASH_ORDER_UNASSIGN_REASONS_LOCALIZED&id=PERSONA_DASH_REQUIRE_IDV_TEMPLATE_ID&id=DRIVE_TARGET_DROPOFF_WINDOW_START_DELTA_IN_MINUTES&id=IOS_DASHER_ATTEST_CRITICAL_ENDPOINTS&id=PERSONA_DRIVE_ALCOHOL_IDV_TEMPLATE_ID&id=DASHER_SHOP_AND_DELIVER_CONTACT_CX_FOR_ITEM_NOT_FOUND_THRESHOLD&id=DROPOFF_LOCAL_GEOFENCE_MAX_DISTANCE_THRESHOLD_IN_METERS
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "id=INSTANT_PAY_DELAY_ON_CC_CHANGE_IN_DAYS&id=PERSONA_DASH_REQUIRE_IDV_DL_ONLY_TEMPLATE_ID&id=DRIVE_PREASSIGN_REVEAL_BUFFER_IN_HOURS&id=DRIVE_PREASSIGN_REVEAL_SUBMARKETS&id=DASHER_PAY_V1_BREAKDOWN_HELP_URL&id=DRIVE_TIER_CUTOFF_DELIVERY_C
+[RESPONSE BODY] {"DASHER_ACCEPT_TIMEOUT":{"seconds":90},"DASHER_CASH_ORDER_UNASSIGN_REASONS_LOCALIZED":[{"not_enough_change":{"en":"Not enough change for cash payment","es":"No hay cambio suficiente para el pago en e...
+
+[REQUEST #28] GET https://api-dasher.doordash.com/v3/dasher/me/dashes/?expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_interval&extra=is_on_dynamic_pay_model&extra=starting_point&extra=starting_point.submarket&extra=is_waiting_for_expected_assignment&extra=commute_state&extra=commute_expire_time&extra=commute_preference
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"0EA94A4E-E612-40CC-ACE2-D8D8533D5281-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"9BB595DC-28CB-4ABC-98CE-49FB89DD3AC0-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-0a706a108ecf49ebbe22c7fed92740a8-539d7bf773129b6a-00"}
+
+[REQUEST #29] GET https://unified-gateway.doordash.com/dasher_comms_service/v2/get_unread_notification_count_by_filter?dasher_id=62043684&channel=COMMS_CHANNEL_IN_APP&notification_status=NOTIFICATION_STATUS_UNREAD&notification_status=NOTIFICATION_STATUS_READY
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"1111E7DD-E730-4126-AE72-16EFE1C0878F-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"31BEDB51-93A5-4053-A20A-C9F00B658745-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-e79b0d4e6d570e4527b8764f4cc51e45-d9bb636463e08ec9-01"}
+
+[RESPONSE #28] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/dashes/?expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_interval&extra=is_on_dynamic_pay_model&extra=starting_point&extra=starting_point.submarket&extra=is_waiting_for_expected_assignment&extra=commute_state&extra=commute_expire_time&extra=commute_preference
+[RESPONSE BODY] []...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_int
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "bgc_status" = "BANNER_TYPE_SUCCESS";
+        "dasher_id" = 62043684;
+        targetApp = dashe
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 150;
+        "request_start" = "2025-09-19T15:12:56.624Z";
+        "response_body_size" = 103;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v2/chat
+
+[RESPONSE #27] Status: 200 for https://api-dasher.doordash.com/v2/chat/user
+[RESPONSE BODY] {"chat_user_id":"RFg2MjA0MzY4NA==","chat_user_access_token":"5651ed5973adb68d6e533f28dd18768528e6a725"}...
+
+[REQUEST #30] PATCH https://api-dasher.doordash.com/v1/dashers/me/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"38E6FE52-5DEB-4FD4-8249-7793A6B103DE-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"FC864FA2-D6EB-4175-A3AA-4D9F119B3FE5-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-eb8063cc3064940e499ae5771633f24a-3aad1fff5ca49d4c-01"}
+[BODY] {"enabled_promo_push_notifications":true}
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        domain = GlobalVarsService;
+        message = "Missing values f
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "dasher_id=62043684&channel=COMMS_CHANNEL_IN_APP&notification_status=NOTIFICATION_STATUS_UNREAD&notification_status=NOTIFICATION_STATUS_READY";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "
+
+[RESPONSE #29] Status: 200 for https://unified-gateway.doordash.com/dasher_comms_service/v2/get_unread_notification_count_by_filter?dasher_id=62043684&channel=COMMS_CHANNEL_IN_APP&notification_status=NOTIFICATION_STATUS_UNREAD&notification_status=NOTIFICATION_STATUS_READY
+[ANALYTICS] {
+    "dasher_id" = 62043684;
+    locations =     (
+                {
+            altitude = 0;
+            course = "-1";
+            "current_status" = "";
+            "dasher_id" = 62043684;
+            "delivery_uuid" = "";
+            "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+
+[RESPONSE BODY] {"unread_count":0}...
+
+[REQUEST #31] POST https://unified-gateway.doordash.com/dx/telemetry/v1/location/location_update
+[HEADERS] {"Content-Type":"application/json","x-unified-gateway-generated-source":"1","X-Ios-Bundle-Identifier":"com.doordash.dasher","baggage":"dd-instrumentation.priority=1.0","traceparent":"00-c579823a932fe82bfe7a822539f24a24-aea982b8720d3c43-00","Client-Version":"ios v2.359.0 b240304","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w"}
+[BODY] {
+  "locations" : [
+    {
+      "dasher_id" : "62043684",
+      "delivery_uuid" : "",
+      "vehicle_id" : "84399152",
+      "is_mocked_location" : true,
+      "device_id" : "70106085-E8E7-4154-9DC1-D4DDC6E8B282",
+      "speed" : -1,
+      "motion_type" : "stationary",
+      "lng" : -95.275497000000001,
+      "motion_type_confidence" : "2",
+      "vertical_accuracy" : -1,
+      "altitude" : 0,
+      "current_status" : "",
+      "timestamp" : "2025-09-19T15:12:55.962Z",
+      "vehicle_category_id
+
+[RESPONSE #30] Status: 200 for https://api-dasher.doordash.com/v1/dashers/me/
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = PATCH;
+        reason = "no error";
+        "request_body_size" = 41;
+        "request_start" = "2025-09-19T15:12:56.889Z";
+        "response_body_size" = 60;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dashe
+[RESPONSE BODY] {"updated_promo_push_notifications":true,"error_message":""}...
+
+[RESPONSE #31] Status: 200 for https://unified-gateway.doordash.com/dx/telemetry/v1/location/location_update
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 836;
+        "request_start" = "2025-09-19T15:12:56.915Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://unified-gateway.doordash.com/dx/t
+[RESPONSE BODY] {}...
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+
+[RESPONSE #26] Status: 200 for https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com
+[RESPONSE BODY] {"message": "SendBird API Endpoint.", "error": true}...
+
+[RESPONSE #25] Status: 200 for https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com
+[RESPONSE BODY] {"message": "SendBird API Endpoint.", "error": true}...
+
+[RESPONSE #26] Status: 200 for https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com
+[RESPONSE BODY] {"message": "SendBird API Endpoint.", "error": true}...
+
+[RESPONSE #25] Status: 200 for https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com
+[RESPONSE BODY] {"message": "SendBird API Endpoint.", "error": true}...
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dash_id" = "--";
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+    };
+    level
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dash_id" = "--";
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+    };
+    level
+
+[REQUEST #32] GET https://api-dasher.doordash.com/v3/dasher/starting_points/?dasher=me&lat=31.961775&lng=-95.275497&vehicle_type=1
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"DC73FD5D-F91E-490F-98D0-2C993359C72F-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"FA02A02F-3BE7-44E2-A427-92D5CDDBEE90-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-3d0e7b054419e47f51c79dedafd1455a-bdb97ce012d64558-00"}
+
+[REQUEST #33] GET https://api-dasher.doordash.com/v3/dasher/me/dashes/?expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_interval&extra=is_on_dynamic_pay_model&extra=starting_point&extra=starting_point.submarket&extra=is_waiting_for_expected_assignment&extra=commute_state&extra=commute_expire_time&extra=commute_preference
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"F45084A4-11DC-4233-9848-AFD31F013321-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"C3AED554-ECAF-4EF3-A4A5-D2A929D15D80-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-0a53ddfad0eaf0fdc1c20e4917b9b980-e7c517060f7ea762-01"}
+
+[REQUEST #34] GET https://api-dasher.doordash.com/v3/dasher/me/dasher_challenges/?lat=31.961775&lng=-95.275497
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"982C0B91-28E0-4363-9A82-9319728F57AB-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"86A78852-D9BB-473C-A237-A701DDB863A2-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-0a53ddfad0eaf0fdc1c20e4917b9b980-d5af46cf7596a68c-01"}
+
+[REQUEST #35] GET https://api-dasher.doordash.com/v3/dasher/me/payout_config/?lat=31.961775&lng=-95.275497&source=dash_now
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"D09E6E84-009E-4E73-BD0B-69B3F3F8F415-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"8525778B-D2BE-403F-8821-FC7AE67B2CF3-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-0a53ddfad0eaf0fdc1c20e4917b9b980-7c38b86330e14a54-01"}
+
+[REQUEST #36] GET https://api-dasher.doordash.com/v1/dashers/me/purchase_card/upsell/
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"CD72E2E3-1C27-4148-946F-F2578207BE56-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"49306DA1-2D75-462C-BC3E-7403B13A526F-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-d1ae18e5eb98eb17089de7410da59869-66b777cbbb9b43cf-01"}
+[ANALYTICS] {
+    expiration = 37939705419791;
+    wrapped =     {
+        "applicant_unique_link" = V1DOrVRcP1gXnDfQ5cA9LL8echeeQ4tF0GCyvcC8zwEiOah2uK;
+        "can_receive_red_card_deliveries" = 0;
+        "contract_type" = IC;
+        "country_shortname" = US;
+        "date_of_birth" = "1983-09-14";
+
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+
+[REQUEST #37] GET https://api-dasher.doordash.com/v3/dasher/earnings_weekly/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"FF6D446E-3575-4F82-98B8-DF1ABE371921-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"1D1D7493-8D73-4E3C-88A9-D2CA3B49B01F-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cfb01e01ca020cd275d64162bbd00a0b-018e9b9ff55dcb17-01"}
+
+[REQUEST #38] GET https://api-dasher.doordash.com/v1/dashers/62043684/instant_payouts/status/
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"F0E76AF5-1483-49EE-A823-06D79689527B-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"C80778E0-9DE1-4B25-8DAF-31FCAF16CCEA-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cfb01e01ca020cd275d64162bbd00a0b-e854e2f3c77a4406-01"}
+
+[REQUEST #39] GET https://api-dasher.doordash.com/v3/dasher/me/payout_config/?lat=31.961775&lng=-95.275497&source=earnings
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"988CB2B3-9984-4130-ABB0-996A19BE9D16-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"0B005F9B-847C-44D0-BC26-FEB11A0D046C-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cfb01e01ca020cd275d64162bbd00a0b-9553b8f0fde54339-01"}
+
+[REQUEST #40] GET https://api-dasher.doordash.com/v3/dasher/dasher_payouts?getFirstFailedOrFirstEntry=true
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"32E7A2A9-6047-4708-95DC-A95DF9A8F432-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"5B73E6D8-C153-4AA6-9890-F9772C85E05A-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cfb01e01ca020cd275d64162bbd00a0b-9c1cb7a7630c09e9-01"}
+
+[REQUEST #41] GET https://api-dasher.doordash.com/v3/dasher/me/blocked_payout/deliveries_under_review/false/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"088282B8-B9CC-4E9D-9ABB-2604C9CFA391-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"EA2F2108-32C5-4A12-925D-6A4BD0586144-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cfb01e01ca020cd275d64162bbd00a0b-cf27f3387da25608-01"}
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+    };
+    level = info;
+    message = "m_h
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #42] POST https://sdk.iad-06.braze.com/api/v3/data
+[HEADERS] {"X-Braze-Req-Attempt":"1","X-Braze-Last-Req-Ms-Ago":"6303","Content-Type":"application/json","X-Braze-Api-Key":"107ff854-7073-4434-939a-42efa630b0ec"}
+[BODY] {"api_key":"107ff854-7073-4434-939a-42efa630b0ec","app_version":"2.359.0","app_version_code":"2.359.0.0","attributes":[{"push_token":"343c04925674a7bd38fef70e963858dc005488b507a629e3c52f2f37eaf2a021","user_id":"62043684"}],"device_id":"A00749C4-4B48-440F-95B6-4CE7CA03823D","sdk_version":"7.5.0","time":1758294778.0829911}
+
+[REQUEST #43] PATCH https://api-dasher.doordash.com/v1/dashers/me/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"0EDB2D27-3381-4162-8AC3-4DC21047FBD0-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"E36D97E1-2026-45A3-9B0C-80BA15DF4F3C-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-cfb01e01ca020cd275d64162bbd00a0b-a578409ecd3fb663-01"}
+[BODY] {"app_version":"2.359.0","phone_model":"iPhone10,2","ios_device_token":"343c04925674a7bd38fef70e963858dc005488b507a629e3c52f2f37eaf2a021"}
+[ANALYTICS] {
+    createdAt = 1758294778;
+    device =     {
+        applicationName = "com.doordash.dasher";
+        dataFields =         {
+            appBuild = 240304;
+            appPackageName = "com.doordash.dasher";
+            appVersion = "2.359.0";
+            deviceId = "BAE5BD90-396A-4791-9AA6-06A4
+
+[REQUEST #44] GET https://api-dasher.doordash.com/v3/dasher/me/check_rating_reward_experiments/?lat=31.961775&lng=-95.275497
+
+[REQUEST #45] POST https://api.iterable.com/api/users/registerDeviceToken
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"0A16FCA4-68E2-42F7-8A87-2679BEEE79E2-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"9A44BCD0-E789-476D-8960-380390F9F582-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-d1ae18e5eb98eb17089de7410da59869-2931677183f3a0bf-01"}
+[HEADERS] {"Api-Key":"1c7faa53094348efb75e9e33a7767e7a","SDK-Version":"6.5.4","Sent-At":"1758294778","SDK-Platform":"iOS","Content-Type":"application/json","SDK-Request-Processor":"Online"}
+[BODY] {"createdAt":1758294778,"email":"tomato3153@powerscrews.com","device":{"dataFields":{"identifierForVendor":"70106085-E8E7-4154-9DC1-D4DDC6E8B282","notificationsEnabled":true,"localizedModel":"iPhone","userInterfaceIdiom":"Phone","deviceId":"BAE5BD90-396A-4791-9AA6-06A4CFF1F62D","appPackageName":"com.doordash.dasher","systemName":"iOS","iterableSdkVersion":"6.5.4","model":"iPhone","systemVersion":"17.6.1","appBuild":"240304","appVersion":"2.359.0"},"token":"343c04925674a7bd38fef70e963858dc005488b
+[ANALYTICS] {
+    anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+    context =     {
+        app =         {
+            build = 240304;
+            name = Dasher;
+            namespace = "com.doordash.dasher";
+            version = "2.391.0";
+        };
+        device =         {
+            advertising
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #46] POST https://iguazu.doordash.com/iguazu-edge/v1/p2
+[HEADERS] {"Content-Encoding":"gzip","Accept":"application/json","Content-Type":"application/json","Content-Length":"6830","entityId":"30fe76e1-643f-4311-a387-ab459a6c909d"}
+[ANALYTICS] {
+    "common_data" =     {
+        "app_id" = "df580713-aad0-428e-b962-bf19cf071339";
+        "app_package_name" = "com.doordash.dasher";
+        "app_session_id" = "C340F668-21FC-4196-985B-FC15CD7BB3F1";
+        "app_version_name" = "2.359.0";
+        "event_time_zone" = "America/Chicago";
+
+
+[REQUEST #47] POST https://service2.us.incognia.com/events/v3
+[HEADERS] {"Content-Type":"application/vnd.incognia.api.v1+octet-stream","ICG-Signature-Key-Version":"3","ICG-Signature":"oBgwZAyZhEJ1YO4o3wIKVxtJqNidbQb8mOmtJFNrcec","ICG-Package-Name":"com.doordash.dasher","ICG-Installation-ID":"ILM-ID-E43933AB-0C17-4799-9E52-C282A2236BC9","Date":"Fri, 19 Sep 2025 15:12:58 GMT","ICG-OS":"ios","ICG-SDK-Version":"61401","ICG-Request-Mode":"realtime","Content-Length":"1200","ICG-OS-Version":"17.6.1","ICG-Signature-Version":"3","ICG-App-ID":"df580713-aad0-428e-b962-bf19cf071339"}
+
+[RESPONSE #33] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/dashes/?expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_interval&extra=is_on_dynamic_pay_model&extra=starting_point&extra=starting_point.submarket&extra=is_waiting_for_expected_assignment&extra=commute_state&extra=commute_expire_time&extra=commute_preference
+[RESPONSE BODY] []...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_int
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "dasher=me&lat=31.961775&lng=-95.275497&vehicle_type=1";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.725Z";
+        "response_body_size" = 52488;
+
+
+[RESPONSE #32] Status: 200 for https://api-dasher.doordash.com/v3/dasher/starting_points/?dasher=me&lat=31.961775&lng=-95.275497&vehicle_type=1
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.803Z";
+        "response_body_size" = 59;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dashers/
+[RESPONSE BODY] [{"id":13319,"name":"Buffalo, TX","is_outside_dasher_current_market":false,"encoded_polyline":["exb_E|_riQe}@uvKvwBytA~lFtoHc_Cv_CmgD`{@"],"location":{"lat":31.462454,"lng":-96.06973},"active_boost":n...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "lat=31.961775&lng=-95.275497&source=dash_now";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.782Z";
+        "response_body_size" = 1842;
+        "statu
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "lat=31.961775&lng=-95.275497";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.765Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+
+[ANALYTICS] {
+    category = tracing;
+    data =     {
+        "battery_level" = "0.84";
+        "battery_state" = charging;
+        "memory_usage_mb" = "164.799072265625";
+        "network_constrained" = false;
+        "network_expensive" = false;
+        "network_state" = CONNECTED;
+        "network_type" = w
+
+[RESPONSE #36] Status: 200 for https://api-dasher.doordash.com/v1/dashers/me/purchase_card/upsell/
+[RESPONSE BODY] {"status":"ACTIVE","upsell_type":null,"purchase_card":null}...
+
+[RESPONSE #35] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/payout_config/?lat=31.961775&lng=-95.275497&source=dash_now
+[RESPONSE BODY] {"should_show_fastpay_cashout_button":false,"should_show_dasher_debit":true,"earnings_breakdown_format":"DAILY","payout_method_url":"https://www.doordash.com/dasher/payment/payout","embedded_ctas":[{"...
+
+[RESPONSE #34] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/dasher_challenges/?lat=31.961775&lng=-95.275497
+[RESPONSE BODY] []...
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+
+!!! NSError Created !!!
+Domain: NSPOSIXErrorDomain
+Code: 1
+UserInfo: nil
+
+[RESPONSE #44] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/check_rating_reward_experiments/?lat=31.961775&lng=-95.275497
+[RESPONSE BODY] {"has_golden_market_v1_enabled":true,"message":"success"}...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "lat=31.961775&lng=-95.275497";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:58.134Z";
+        "response_body_size" = 57;
+        "status_code" = 200;
+
+
+[RESPONSE #43] Status: 200 for https://api-dasher.doordash.com/v1/dashers/me/
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = PATCH;
+        reason = "no error";
+        "request_body_size" = 138;
+        "request_start" = "2025-09-19T15:12:58.107Z";
+        "response_body_size" = 28;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dash
+[RESPONSE BODY] {"result":"","message":"OK"}...
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "promos_icon_type" = Promos;
+        "sp_busyness" = "not_busy"
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[RESPONSE #42] Status: 201 for https://sdk.iad-06.braze.com/api/v3/data
+[RESPONSE BODY] {}...
+
+[RESPONSE #40] Status: 200 for https://api-dasher.doordash.com/v3/dasher/dasher_payouts?getFirstFailedOrFirstEntry=true
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "getFirstFailedOrFirstEntry=true";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.951Z";
+        "response_body_size" = 11692;
+        "status_code" = 20
+[RESPONSE BODY] [{"id":"844f0ba7-c9f3-44cc-ad77-ea7cd59ada94","deposited_to":"","initiated":"2025-09-17T17:16:17.423+00:00","payout_issue_info":{"description":"","type":""},"on":"2025-09-17T17:16:17.423+00:00","payou...
+
+[REQUEST #48] POST https://sdk.iad-06.braze.com/api/v3/data
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.971Z";
+        "response_body_size" = 143;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v3/dasher/
+[HEADERS] {"X-Braze-Req-Attempt":"1","X-Braze-Last-Req-Ms-Ago":"1033","Content-Type":"application/json","X-Braze-Api-Key":"107ff854-7073-4434-939a-42efa630b0ec"}
+[BODY] {"api_key":"107ff854-7073-4434-939a-42efa630b0ec","app_version":"2.359.0","app_version_code":"2.359.0.0","attributes":[{"push_token":"343c04925674a7bd38fef70e963858dc005488b507a629e3c52f2f37eaf2a021","user_id":"62043684"}],"device_id":"A00749C4-4B48-440F-95B6-4CE7CA03823D","sdk_version":"7.5.0","time":1758294779.1167879}
+
+[RESPONSE #45] Status: 401 for https://api.iterable.com/api/users/registerDeviceToken
+[ERROR RESPONSE] Status 401
+[ERROR BODY] {"msg":"Disabled API key or insufficient privileges","code":"BadApiKey","params":{"ip":"23.160.24.185","endpoint":"/api/users/registerDeviceToken","apiKeyIdentifier":"a7767e7a","apiKeyType":"Mobile"}}
+
+[RESPONSE #46] Status: 200 for https://iguazu.doordash.com/iguazu-edge/v1/p2
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 6830;
+        "request_start" = "2025-09-19T15:12:58.216Z";
+        "response_body_size" = 20;
+        "status_code" = 200;
+        url = "https://iguazu.doordash.com/iguazu-edge
+
+[RESPONSE #41] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/blocked_payout/deliveries_under_review/false/
+[RESPONSE BODY] {"status":"success"}...
+[RESPONSE BODY] {"summary":{"count_of_deliveries_under_review":0,"count_of_other_pay_under_review":0},"deliveries_under_review":[],"other_pay_under_review":[]}...
+
+[RESPONSE #37] Status: 200 for https://api-dasher.doordash.com/v3/dasher/earnings_weekly/
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.894Z";
+        "response_body_size" = 81311;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v3/dashe
+[RESPONSE BODY] {"shifts":[{"id":4055524705,"starting_point_id":5637,"num_deliveries":0,"is_on_dynamic_pay_model":true,"has_pre_tippable_deliveries":true,"total_active_time":0,"total_pay_monetary_fields":{"unit_amoun...
+
+[REQUEST #49] POST https://api-dasher.doordash.com/v2/chat/user
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"4BC6A133-F698-4FBE-B174-EB212627B6B8-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"D660B428-693E-4E59-847D-76E1F3F0F064-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-1fb5c84092e6086ea96acd781d8435f3-d7da9f16c3064f9b-01"}
+[BODY] {"app_version":"2.359.0","platform":"ios","nick_name":"joshua b","locale":"en-US","dd_role_id":"62043684","provider":"sendbird","submarket_id":"2216"}
+
+[RESPONSE #47] Status: 200 for https://service2.us.incognia.com/events/v3
+[RESPONSE BODY] ...
+
+[REQUEST #50] GET https://api-dasher.doordash.com/v3/dashers/me/incentives/active?starting_point_id=5637
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"25F8B0B8-6D55-46B6-818E-2B2180E7FC14-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"67C3DFF2-9BD4-418B-B05E-6978B56E4DC8-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-99bd4e20d4499ed52920b26f5f7abdc2-8fe19535b9d9d00d-01"}
+
+[REQUEST #51] GET https://api-dasher.doordash.com/v3/dasher/starting_points/?dasher=me&lat=31.961775&lng=-95.275497&vehicle_type=1
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"1349DDA7-0B5A-4C2B-9E53-4C3F78B430A2-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"9BB786D3-3669-4742-9F97-38BE1E28DA48-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-99bd4e20d4499ed52920b26f5f7abdc2-8fe19535b9d9d00d-01"}
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        domain = "DasherApp/IterableServiceImpl.swift register(token:)"
+[ANALYTICS] (
+        {
+        anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+        context =         {
+            traits =             {
+                email = "tomato3153@powerscrews.com";
+                "first_name" = joshua;
+                "last_name" = bernstein;
+            };
+        };
+
+[ANALYTICS] {
+    "common_data" =     {
+        "app_id" = "df580713-aad0-428e-b962-bf19cf071339";
+        "app_package_name" = "com.doordash.dasher";
+        "app_session_id" = "C340F668-21FC-4196-985B-FC15CD7BB3F1";
+        "app_version_name" = "2.359.0";
+        "event_time_zone" = "America/Chicago";
+
+
+[RESPONSE #48] Status: 201 for https://sdk.iad-06.braze.com/api/v3/data
+[RESPONSE BODY] {}...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 150;
+        "request_start" = "2025-09-19T15:12:59.185Z";
+        "response_body_size" = 103;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v2/chat
+
+[RESPONSE #49] Status: 200 for https://api-dasher.doordash.com/v2/chat/user
+[RESPONSE BODY] {"chat_user_id":"RFg2MjA0MzY4NA==","chat_user_access_token":"5651ed5973adb68d6e533f28dd18768528e6a725"}...
+
+[REQUEST #52] GET https://api-dasher.doordash.com/v2/dasher_announcements/?dasher=62043684
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"59C96570-95E1-4426-AAA6-FDE8D70DB8BE-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"B86A9CC7-AE2F-49D9-9196-55F31EDBA9E4-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-dc485248312275680e1abe115b291b24-fb91d878d43ecf19-01"}
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.912Z";
+        "response_body_size" = 352;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dashers
+
+[RESPONSE #38] Status: 200 for https://api-dasher.doordash.com/v1/dashers/62043684/instant_payouts/status/
+[RESPONSE BODY] {"status":"not_qualified_yet","instant_pay_fee_monetary_fields":{"currency":"USD","display_string":"$1.99","unit_amount":199,"decimal_places":2},"balance_monetary_fields":{"currency":"USD","display_st...
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "num_unread_messages" = 0;
+        targetApp = dasher;
+
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #53] POST https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com/v3/sdk/users/RFg2MjA0MzY4NA%3D%3D/push/apns
+[HEADERS] {"Accept":"application/json","Session-Key":"f26ca4ac953bd98ff62fbce2f98a165c259162ef","SendBird":"iOS,17.6.1,3.1.57,0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04","Request-Sent-Timestamp":"1758294779326","User-Agent":"Jios/3.1.57","SB-User-Agent":"iOS/c3.1.57","Connection":"Keep-Alive"}
+[BODY] {"is_unique":true,"apns_device_token":"343C04925674A7BD38FEF70E963858DC005488B507A629E3C52F2F37EAF2A021"}
+
+[REQUEST #54] POST https://service2.us.incognia.com/events/v3
+[HEADERS] {"Content-Type":"application/vnd.incognia.api.v1+octet-stream","ICG-Signature-Key-Version":"3","ICG-Signature":"7kkykVy8YMHsMsJkqSJO0eJA88PVPd3zYqZxBJZ6NlU","ICG-Package-Name":"com.doordash.dasher","ICG-Installation-ID":"ILM-ID-E43933AB-0C17-4799-9E52-C282A2236BC9","Date":"Fri, 19 Sep 2025 15:12:59 GMT","ICG-OS":"ios","ICG-SDK-Version":"61401","ICG-Request-Mode":"realtime","Content-Length":"1216","ICG-OS-Version":"17.6.1","ICG-Signature-Version":"3","ICG-App-ID":"df580713-aad0-428e-b962-bf19cf071339"}
+
+[RESPONSE #50] Status: 200 for https://api-dasher.doordash.com/v3/dashers/me/incentives/active?starting_point_id=5637
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "starting_point_id=5637";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:59.204Z";
+        "response_body_size" = 123;
+        "status_code" = 200;
+
+[RESPONSE BODY] {"title":"TX: Jacksonville","sub_title":"","new_incentive_nux_description":"","dasher_incentives":[],"cache_ttl_minutes":5}...
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "incentive_count" = 0;
+        "starting_point_id" = 5637;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "can_dash_now_always" = false;
+        "current_boost" = 0;
+        "dash_now_button" = true;
+
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = tracing;
+    data =     {
+        "battery_level" = "0.84";
+        "battery_state" = charging;
+        busyness = "not_busy";
+        "dash_now_button_state" = schedule;
+        "dash_now_view_status" = notAvailable;
+        "earnings_mode" = "earn_per_order";
+        "memory_usage
+
+[RESPONSE #39] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/payout_config/?lat=31.961775&lng=-95.275497&source=earnings
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "lat=31.961775&lng=-95.275497&source=earnings";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:57.931Z";
+        "response_body_size" = 1812;
+        "statu
+[RESPONSE BODY] {"should_show_fastpay_cashout_button":false,"should_show_dasher_debit":true,"earnings_breakdown_format":"DAILY","payout_method_url":"https://www.doordash.com/dasher/payment/payout","embedded_ctas":[{"...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "dasher=62043684";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:59.294Z";
+        "response_body_size" = 508;
+        "status_code" = 200;
+        url = "
+
+[RESPONSE #52] Status: 200 for https://api-dasher.doordash.com/v2/dasher_announcements/?dasher=62043684
+[RESPONSE BODY] [{"id":"12461002","title":"Inaccurate information provided or delivery not attempted","body":"{\"contract_violation_url\":\"https://www.doordash.com/risk-webview/dasher_warnings/1106837137543626955\",...
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        id = "crimson_activate_card_earnings_screen";
+        "is_ballo
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "active_time" = 0;
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dash_time" = "0.0";
+        "dasher_id" = 62043684;
+        "is_bal
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+
+[RESPONSE #54] Status: 200 for https://service2.us.incognia.com/events/v3
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[RESPONSE BODY] ...
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    "common_data" =     {
+        "app_id" = "df580713-aad0-428e-b962-bf19cf071339";
+        "app_package_name" = "com.doordash.dasher";
+        "app_session_id" = "C340F668-21FC-4196-985B-FC15CD7BB3F1";
+        "app_version_name" = "2.359.0";
+        "event_time_zone" = "America/Chicago";
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        component = "bar_chart";
+        context = "earnings_tab";
+        "dasher_id" = 62043684;
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+        "user_id" = 62043684;
+    };
+    le
+
+[REQUEST #55] POST https://sdk.iad-06.braze.com/api/v3/data
+[HEADERS] {"X-Braze-Req-Attempt":"1","X-Braze-Last-Req-Ms-Ago":"397","Content-Type":"application/json","X-Braze-Api-Key":"107ff854-7073-4434-939a-42efa630b0ec"}
+[BODY] {"api_key":"107ff854-7073-4434-939a-42efa630b0ec","app_version":"2.359.0","app_version_code":"2.359.0.0","attributes":[{"push_token":"343c04925674a7bd38fef70e963858dc005488b507a629e3c52f2f37eaf2a021","user_id":"62043684"}],"device_id":"A00749C4-4B48-440F-95B6-4CE7CA03823D","sdk_version":"7.5.0","time":1758294779.5147781}
+
+[RESPONSE #51] Status: 200 for https://api-dasher.doordash.com/v3/dasher/starting_points/?dasher=me&lat=31.961775&lng=-95.275497&vehicle_type=1
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "dasher=me&lat=31.961775&lng=-95.275497&vehicle_type=1";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:12:59.223Z";
+        "response_body_size" = 52488;
+
+[RESPONSE BODY] [{"id":13319,"name":"Buffalo, TX","is_outside_dasher_current_market":false,"encoded_polyline":["exb_E|_riQe}@uvKvwBytA~lFtoHc_Cv_CmgD`{@"],"location":{"lat":31.462454,"lng":-96.06973},"active_boost":n...
+
+[REQUEST #56] PATCH https://api-dasher.doordash.com/v1/dashers/me/
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"0DE65FAE-98C7-4BA2-8D05-21D0CF8ACD8F-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"BBCB1A1B-3120-42A1-B859-433B1CCB71E2-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-2f3461e68b88e6a392a27643a5e29d23-42c35b946aa690b6-01"}
+[BODY] {"app_version":"2.359.0","phone_model":"iPhone10,2"}
+
+[REQUEST #57] POST https://service2.us.incognia.com/events/v3
+[HEADERS] {"Content-Type":"application/vnd.incognia.api.v1+octet-stream","ICG-Signature-Key-Version":"3","ICG-Signature":"RnzwtHOA4pBp3Wn2JKuuLFgVp02t3cxgQVfONZ9ioy8","ICG-Package-Name":"com.doordash.dasher","ICG-Installation-ID":"ILM-ID-E43933AB-0C17-4799-9E52-C282A2236BC9","Date":"Fri, 19 Sep 2025 15:12:59 GMT","ICG-OS":"ios","ICG-SDK-Version":"61401","ICG-Request-Mode":"realtime","Content-Length":"1168","ICG-OS-Version":"17.6.1","ICG-Signature-Version":"3","ICG-App-ID":"df580713-aad0-428e-b962-bf19cf071339"}
+
+[RESPONSE #56] Status: 200 for https://api-dasher.doordash.com/v1/dashers/me/
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = PATCH;
+        reason = "no error";
+        "request_body_size" = 52;
+        "request_start" = "2025-09-19T15:12:59.796Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dasher
+[RESPONSE BODY] {}...
+
+[RESPONSE #57] Status: 200 for https://service2.us.incognia.com/events/v3
+[RESPONSE BODY] ...
+
+[RESPONSE #55] Status: 201 for https://sdk.iad-06.braze.com/api/v3/data
+[RESPONSE BODY] {}...
+
+[RESPONSE #53] Status: 200 for https://api-0F7BBB82-3D8F-4F04-B7E6-3F51C0E4DA04.sendbird.com/v3/sdk/users/RFg2MjA0MzY4NA%3D%3D/push/apns
+[RESPONSE BODY] {"user":{"user_id":"RFg2MjA0MzY4NA==","nickname":"joshua b","profile_url":"","require_auth_for_profile_image":false,"metadata":{}},"token":"343C04925674A7BD38FEF70E963858DC005488B507A629E3C52F2F37EAF2...
+
+[REQUEST #58] GET https://api-dasher.doordash.com/v3/dasher/preference?type=insurance
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"BBEE1D2F-1871-4DF9-8AA1-4B3F34524579-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"439ADAA5-6EEE-4273-B2AF-F714EC5A6B28-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-2f3461e68b88e6a392a27643a5e29d23-54567793f2b36cdf-01"}
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "promos_icon_type" = Promos;
+        "sp_busyness" = "not_busy"
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    batch =     (
+                {
+            anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+            context =             {
+                app =                 {
+                    build = 240304;
+                    name = Dasher;
+                    namespace = "com.doordash.das
+!!! FOUND 16.3.1 in analytics !!!
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "type=insurance";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:13:00.878Z";
+        "response_body_size" = 179;
+        "status_code" = 200;
+        url = "h
+
+[RESPONSE #58] Status: 200 for https://api-dasher.doordash.com/v3/dasher/preference?type=insurance
+[RESPONSE BODY] {"hard_braking_audio_alert_preference":{"is_enabled":true,"is_education_modal_complete":true},"driving_insights_preference":{"show_report_frequency":"FREQUENCY_TYPE_UNSPECIFIED"}}...
+
+[REQUEST #59] POST https://otel-mobile.doordash.com/v1/traces
+[HEADERS] {"User-Agent":"OTel-OTLP-Exporter-Swift/0.20.0","Content-Encoding":"gzip","dd-api-token":"6B13DFE2-374C-4C69-AB71-9DD6CD02A2F2","Content-Type":"application/x-protobuf"}
+
+[REQUEST #60] POST https://otel-mobile.doordash.com/v1/traces
+[HEADERS] {"User-Agent":"OTel-OTLP-Exporter-Swift/0.20.0","Content-Encoding":"gzip","dd-api-token":"6B13DFE2-374C-4C69-AB71-9DD6CD02A2F2","Content-Type":"application/x-protobuf"}
+
+[RESPONSE #60] Status: 200 for https://otel-mobile.doordash.com/v1/traces
+[RESPONSE BODY]
+...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 2248;
+        "request_start" = "2025-09-19T15:13:01.076Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://otel-mobile.doordash.com/v1/trac
+
+[RESPONSE #59] Status: 200 for https://otel-mobile.doordash.com/v1/traces
+[RESPONSE BODY]
+...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 5117;
+        "request_start" = "2025-09-19T15:13:01.070Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://otel-mobile.doordash.com/v1/trac
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        targetApp = dasher;
+        version = "2.360.1";
+    };
+    lev
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+!!! FOUND 16.3.1 in analytics !!!
+
+[REQUEST #61] GET https://api-dasher.doordash.com/v1/dasher/check-for-updates
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"75B2E08D-89D3-46DC-B631-B3B22369252C-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"D054A065-DA25-4A15-B3F9-E00DC6919209-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-e8a33c50414a91fbccdac216e7b65c3d-4ead31a1ac633eb5-01"}
+
+[RESPONSE #61] Status: 200 for https://api-dasher.doordash.com/v1/dasher/check-for-updates
+[RESPONSE BODY] {"is_required_to_upgrade":false}...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:13:01.439Z";
+        "response_body_size" = 32;
+        "status_code" = 200;
+        url = "https://api-dasher.doordash.com/v1/dasher/c
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+[ANALYTICS] (
+        {
+        anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+        context =         {
+            traits =             {
+                email = "tomato3153@powerscrews.com";
+                "first_name" = joshua;
+                "last_name" = bernstein;
+            };
+        };
+
+[ANALYTICS] {
+    anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+    context =     {
+        app =         {
+            build = 240304;
+            name = Dasher;
+            namespace = "com.doordash.dasher";
+            version = "2.391.0";
+        };
+        device =         {
+            advertising
+
+[REQUEST #62] POST https://iguazu.doordash.com/iguazu-edge/v1/p2
+[HEADERS] {"Content-Encoding":"gzip","Accept":"application/json","Content-Type":"application/json","Content-Length":"4839","entityId":"30fe76e1-643f-4311-a387-ab459a6c909d"}
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 4839;
+        "request_start" = "2025-09-19T15:13:05.137Z";
+        "response_body_size" = 20;
+        "status_code" = 200;
+        url = "https://iguazu.doordash.com/iguazu-edge
+
+[RESPONSE #62] Status: 200 for https://iguazu.doordash.com/iguazu-edge/v1/p2
+[RESPONSE BODY] {"status":"success"}...
+
+[REQUEST #63] POST https://otel-mobile.doordash.com/v1/traces
+[HEADERS] {"User-Agent":"OTel-OTLP-Exporter-Swift/0.20.0","Content-Encoding":"gzip","dd-api-token":"6B13DFE2-374C-4C69-AB71-9DD6CD02A2F2","Content-Type":"application/x-protobuf"}
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        lat = "31.969835";
+        lng = "-95.19681";
+        "starting
+[ANALYTICS] {
+    category = tracing;
+    data =     {
+        "battery_level" = "0.84";
+        "battery_state" = charging;
+        "memory_usage_mb" = "253.8462142944336";
+        "network_constrained" = false;
+        "network_expensive" = false;
+        "network_state" = CONNECTED;
+        "network_type" =
+
+[REQUEST #64] GET https://api-dasher.doordash.com/v1/dashers/me/purchase_card/latest?include_digital_wallet_tokens=true&sync_digital_wallet_tokens=false
+[HEADERS] {"dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"61396BAD-0CC0-47ED-9FBA-A2CD02CB5E68-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"E73D8C64-423A-4F67-9CDA-2AB3C7AC0F9C-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-f9ead4c597892f7ff225f9ddb9176b82-04adb3adb909dbc3-01"}
+
+[RESPONSE #63] Status: 200 for https://otel-mobile.doordash.com/v1/traces
+[RESPONSE BODY]
+...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 932;
+        "request_start" = "2025-09-19T15:13:06.088Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://otel-mobile.doordash.com/v1/trace
+
+[RESPONSE #64] Status: 200 for https://api-dasher.doordash.com/v1/dashers/me/purchase_card/latest?include_digital_wallet_tokens=true&sync_digital_wallet_tokens=false
+[RESPONSE BODY] {"card":null}...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "include_digital_wallet_tokens=true&sync_digital_wallet_tokens=false";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2025-09-19T15:13:06.138Z";
+        "response_body_size"
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        domain = "DasherApp/DashNowPanelInteractor.swift handleTapForVi
+[ANALYTICS] {
+    category = tracing;
+    data =     {
+        "battery_level" = "0.84";
+        "battery_state" = charging;
+        "memory_usage_mb" = "253.8462142944336";
+        "network_constrained" = false;
+        "network_expensive" = false;
+        "network_state" = CONNECTED;
+        "network_type" =
+[ANALYTICS] {
+    category = touch;
+    data =     {
+        accessibilityIdentifier = "Add dash save button";
+        view = "<DLS.Button: 0x141a5ea00; baseClass = UIButton; frame = (16 672; 382 48); opaque = NO; layer = <CALayer: 0x283d15a20>>";
+    };
+    level = info;
+    message = buttonTapped;
+    timesta
+[ANALYTICS] {
+    dasher = 62043684;
+    "ignore_min_shift_duration" = 0;
+    "is_impromptu_dash" = 0;
+    "scheduled_end_time" = "2025-09-19T17:30:00Z";
+    "scheduled_start_time" = "2025-09-19T16:00:00Z";
+    "starting_point" = 5637;
+    vehicle = 84399152;
+}
+[ANALYTICS] {
+    dasher = 62043684;
+    "ignore_min_shift_duration" = 0;
+    "is_impromptu_dash" = 0;
+    "scheduled_end_time" = "2025-09-19T17:30:00Z";
+    "scheduled_start_time" = "2025-09-19T16:00:00Z";
+    "starting_point" = 5637;
+    vehicle = 84399152;
+}
+[ANALYTICS] {
+    dasher = 62043684;
+    "ignore_min_shift_duration" = 0;
+    "is_impromptu_dash" = 0;
+    "scheduled_end_time" = "2025-09-19T17:30:00Z";
+    "scheduled_start_time" = "2025-09-19T16:00:00Z";
+    "starting_point" = 5637;
+    vehicle = 84399152;
+}
+[ANALYTICS] {
+    dasher = 62043684;
+    "ignore_min_shift_duration" = 0;
+    "is_impromptu_dash" = 0;
+    "scheduled_end_time" = "2025-09-19T17:30:00Z";
+    "scheduled_start_time" = "2025-09-19T16:00:00Z";
+    "starting_point" = 5637;
+    vehicle = 84399152;
+}
+
+[REQUEST #65] POST https://api-dasher.doordash.com/v1/dashes/?expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_interval&extra=is_on_dynamic_pay_model&extra=starting_point&extra=starting_point.submarket&extra=is_waiting_for_expected_assignment&extra=commute_state&extra=commute_expire_time&extra=commute_preference
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","x-correlation-id":"B7705692-28C9-4B67-AC19-98F6ADB24EA0-dx-ios","baggage":"dd-instrumentation.priority=1.0","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"ED5BBC4D-947C-4DE9-A118-31A38A4DB6DF-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","dd_device_id":"dx_70106085-E8E7-4154-9DC1-D4DDC6E8B282","traceparent":"00-21bcc1216f3a8b2049b1e99e8ce31cd2-26748bed23aaa850-01"}
+[BODY] {"vehicle":"84399152","is_impromptu_dash":false,"scheduled_start_time":"2025-09-19T16:00:00Z","dasher":"62043684","scheduled_end_time":"2025-09-19T17:30:00Z","ignore_min_shift_duration":false,"starting_point":"5637"}
+[ANALYTICS] {
+    category = touch;
+    data =     {
+        accessibilityIdentifier = "Add dash save button";
+        view = "<DLS.Button: 0x141a5ea00; baseClass = UIButton; frame = (16 672; 382 48); opaque = NO; layer = <CALayer: 0x283d15a20>>";
+    };
+    level = info;
+    message = bounceUp;
+    timestamp =
+
+[RESPONSE #65] Status: 403 for https://api-dasher.doordash.com/v1/dashes/?expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_interval&extra=is_on_dynamic_pay_model&extra=starting_point&extra=starting_point.submarket&extra=is_waiting_for_expected_assignment&extra=commute_state&extra=commute_expire_time&extra=commute_preference
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "expand=vehicle.vehicle_type&expand=starting_point&expand=vehicle&extra=vehicle&extra=num_preassigned_deliveries&extra=allowed_ma_seconds&extra=remaining_ma_seconds&extra=auto_assign&extra=can_extend_until&extra=current_manual_assign_int
+[ERROR RESPONSE] Status 403
+[ERROR BODY] System error, please log out and log back in
+
+[REQUEST #66] GET https://google.com/generate_204
+[ANALYTICS] (
+        {
+        anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+        context =         {
+            app =             {
+                build = 240304;
+                name = Dasher;
+                namespace = "com.doordash.dasher";
+                version = "2.359.0";
+            };
+
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "end_time" = "2025-09-19T17:30:00Z";
+        error = "The opera
+
+[REQUEST #67] GET https://api-dasher.doordash.com/v3/dasher/me/?platformOnboardingSupported=true&native_demo_order_enabled=true&provide_all_serializer_fields=true&extra=no_purchase_card
+[HEADERS] {"Content-Type":"application/json","dd-app-subvariant":"dasher","Accept":"application/json","x-session-id":"D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios","baggage":"dd-instrumentation.priority=1.0","Authorization":"JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1ODI4NzAxOSwicGVkcmVnYWwiOnsiaWQiOiJjN2Q1ZGJhZS0zNWIzLTRlYmYtYmMwYi05YjM5MjY4YzMxOTYifSwiZXhwIjoxNzU4NTQ2MjE5LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjEwMzk2OTgzOCwiZW1haWwiOiJ0b21hdG8zMTUzQHBvd2Vyc2NyZXdzLmNvbSJ9LCJjaWQiOjE2NDk0OTI4MTIxNjIzNjEzNjZ9.ol7602D3AygfsA62HGW7F6-un7YKgoYPtukmZxxVV_w","x-att-session-id":"EF77D807-AE8A-4EF2-9363-42F6BCF183DB","x-correlation-id":"CD8FA59F-DBDF-4002-9378-F83B7DA42AA3-dx-ios","Client-Version":"ios v2.359.0 b240304","Accept-Language":"en-US","x-client-request-id":"4B7C9F1A-1C2A-4EF3-875B-30F1AF4B205C-dx-ios","User-Agent":"DoorDashDriver/2.359.0 (iPhone; iOS 17.6.1; Scale/3.0)","traceparent":"00-21bcc1216f3a8b2049b1e99e8ce31cd2-5caf88cc75151df4-01"}
+[ANALYTICS] {
+    category = tracing;
+    data =     {
+        "battery_level" = "0.84";
+        "battery_state" = charging;
+        "memory_usage_mb" = "253.8462142944336";
+        "network_constrained" = false;
+        "network_expensive" = false;
+        "network_state" = CONNECTED;
+        "network_type" =
+
+[RESPONSE #66] Status: 204 for https://google.com/generate_204
+[RESPONSE BODY] ...
+
+[RESPONSE #67] Status: 200 for https://api-dasher.doordash.com/v3/dasher/me/?platformOnboardingSupported=true&native_demo_order_enabled=true&provide_all_serializer_fields=true&extra=no_purchase_card
+[RESPONSE BODY] {"id":62043684,"created_at":"2025-08-30T06:18:22.202+00:00","user_id":2103969838,"default_starting_point_id":5637,"is_equipped_for_large_orders":false,"is_active":true,"is_hearing_impaired":false,"ref...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        "http.query" = "platformOnboardingSupported=true&native_demo_order_enabled=true&provide_all_serializer_fields=true&extra=no_purchase_card";
+        method = GET;
+        reason = "no error";
+        "request_body_size" = 0;
+        "request_start" = "2
+[ANALYTICS] {
+    expiration = 37950304745583;
+    wrapped =     {
+        "applicant_unique_link" = V1DOrVRcP1gXnDfQ5cA9LL8echeeQ4tF0GCyvcC8zwEiOah2uK;
+        "can_receive_red_card_deliveries" = 0;
+        "contract_type" = IC;
+        "country_shortname" = US;
+        "date_of_birth" = "1983-09-14";
+
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    context =     {
+        "country_code" = US;
+        "dasher_id" = 62043684;
+        "default_starting_point_id" = 5637;
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_language" = en;
+        "device_model"
+
+[REQUEST #68] POST https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[HEADERS] {"Content-Type":"application/json","Accept":"application/json"}
+[BODY] {"app_version":"2.359.0","dv_names":["mobile-feature-multifeature-holdout","mobile-dv-telemetry-timeout-flag","mobile-feature-client-side-default"],"os":"iOS","legacy_namespaces":[],"context":{"flavor":"dasher","device_region":"US","language_tag":"en-US","user_id":"2103969838","market_id":"9","dasher_id":"62043684","submarket_id":"2216","device_language":"en","device_id":"70106085-E8E7-4154-9DC1-D4DDC6E8B282","country_code":"US","default_starting_point_id":"5637","device_model":"iPhone10.2"},"na
+[ANALYTICS] {
+    category = "event_tracker";
+    data =     {
+        "app_build_type" = appStore;
+        "app_session_id" = "D6137204-01A6-4660-B40A-7F0541AF4D43-dx-ios";
+        "app_session_segment" = 0;
+        "dasher_id" = 62043684;
+        "file_id" = "Alerts/SimpleAlert+Extensions.swift";
+        mess
+
+[RESPONSE #68] Status: 200 for https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[RESPONSE BODY] {"context":{"application":"dasher","app_version":"2.359.0","os":"iOS","os_version":"17.6.1","flavor":"dasher","device_region":"US","language_tag":"en-US","user_id":"2103969838","market_id":"9","dasher...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 583;
+        "request_start" = "2025-09-19T15:13:08.444Z";
+        "response_body_size" = 645;
+        "status_code" = 200;
+        url = "https://dynamic-values-edge-service.doo
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    "country_code" = US;
+    "dasher_id" = 62043684;
+    "default_starting_point_id" = 5637;
+    "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+    "device_language" = en;
+    "device_model" = "iPhone10.2";
+    "device_region" = US;
+
+[ANALYTICS] (
+    "ios_dx_lat_lng_instead_of_formatted_addr",
+        {
+        "additional_exposures" =         (
+        );
+        "exposure_enabled" = 0;
+        name = "ios_dx_lat_lng_instead_of_formatted_addr";
+        value = 1;
+    },
+    "dx_ios_log_user_push_notification_preferences_on_iguazu",
+
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    context =     {
+        "country_code" = US;
+        "dasher_id" = 62043684;
+        "default_starting_point_id" = 5637;
+        "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+        "device_language" = en;
+        "device_model"
+
+[REQUEST #69] POST https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[HEADERS] {"Content-Type":"application/json","Accept":"application/json"}
+[BODY] {"evaluation_options":{"reference_exposure_enabled":false,"client_side_default_enabled":true},"app_version":"2.359.0","dv_names":["ios_dx_trust_aus_idv_enabled","surface_place_names_dx","ios_dx_pickup_receipt_photo_ios17_black_camera_bypass","ios_dx_shelf_scan_tool_detection_model_url","ios_dx_dropoff_geo_fence_check_for_hitm_drive_orders","dx_enable_zone_busyness","dx_iguazu_centralized_scheduling","enable_order_problem_reporting_in_cx_dx_chat","ios_dx_dsd_improved_red_card_prompt","ios_dx_chal
+
+[RESPONSE #69] Status: 200 for https://dynamic-values-edge-service.doordash.com/v1/experiments/
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 16846;
+        "request_start" = "2025-09-19T15:13:08.814Z";
+        "response_body_size" = 61149;
+        "status_code" = 200;
+        url = "https://dynamic-values-edge-service
+[RESPONSE BODY] {"context":{"application":"dasher","app_version":"2.359.0","os":"iOS","os_version":"17.6.1","flavor":"dasher","device_region":"US","language_tag":"en-US","market_id":"9","user_id":"2103969838","dasher...
+[ANALYTICS] {
+    "app_version" = "2.359.0";
+    application = dasher;
+    "country_code" = US;
+    "dasher_id" = 62043684;
+    "default_starting_point_id" = 5637;
+    "device_id" = "70106085-E8E7-4154-9DC1-D4DDC6E8B282";
+    "device_language" = en;
+    "device_model" = "iPhone10.2";
+    "device_region" = US;
+
+[ANALYTICS] (
+    "ios_dx_dropoff_geo_fence_check_for_hitm",
+        {
+        "additional_exposures" =         (
+        );
+        "exposure_enabled" = 0;
+        name = "ios_dx_dropoff_geo_fence_check_for_hitm";
+        value = 1;
+    },
+    "dx_standardize_error_handling_v1",
+        {
+        "additional_e
+
+[REQUEST #70] POST https://otel-mobile.doordash.com/v1/traces
+[HEADERS] {"User-Agent":"OTel-OTLP-Exporter-Swift/0.20.0","Content-Encoding":"gzip","dd-api-token":"6B13DFE2-374C-4C69-AB71-9DD6CD02A2F2","Content-Type":"application/x-protobuf"}
+[ANALYTICS] (
+        {
+        anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+        context =         {
+            traits =             {
+                email = "tomato3153@powerscrews.com";
+                "first_name" = joshua;
+                "last_name" = bernstein;
+            };
+        };
+
+
+[RESPONSE #70] Status: 200 for https://otel-mobile.doordash.com/v1/traces
+[RESPONSE BODY]
+...
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 2192;
+        "request_start" = "2025-09-19T15:13:11.097Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://otel-mobile.doordash.com/v1/trac
+
+[ANALYTICS] {
+    batch =     (
+                {
+            anonymousId = "F94F4895-96A6-4BDB-AECE-2BAE019DC57D";
+            context =             {
+                app =                 {
+                    build = 240304;
+                    name = Dasher;
+                    namespace = "com.doordash.das
+[ANALYTICS] {
+    anonymousId = "1A24A0A3-1443-44E9-96CD-025FA015E382";
+    context =     {
+        app =         {
+            build = 240304;
+            name = Dasher;
+            namespace = "com.doordash.dasher";
+            version = "2.391.0";
+        };
+        device =         {
+            advertising
+
+[REQUEST #71] POST https://iguazu.doordash.com/iguazu-edge/v1/p2
+[HEADERS] {"Content-Encoding":"gzip","Accept":"application/json","Content-Type":"application/json","Content-Length":"2655","entityId":"30fe76e1-643f-4311-a387-ab459a6c909d"}
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 2655;
+        "request_start" = "2025-09-19T15:13:20.123Z";
+        "response_body_size" = 20;
+        "status_code" = 200;
+        url = "https://iguazu.doordash.com/iguazu-edge
+
+[RESPONSE #71] Status: 200 for https://iguazu.doordash.com/iguazu-edge/v1/p2
+[RESPONSE BODY] {"status":"success"}...
+
+
+
+
+
+[REQUEST #72] POST https://otel-mobile.doordash.com/v1/metrics
+[HEADERS] {"User-Agent":"OTel-OTLP-Exporter-Swift/0.20.0","Content-Encoding":"gzip","dd-api-token":"6B13DFE2-374C-4C69-AB71-9DD6CD02A2F2","Content-Type":"application/x-protobuf"}
+
+[RESPONSE #72] Status: 200 for https://otel-mobile.doordash.com/v1/metrics
+[ANALYTICS] {
+    category = http;
+    data =     {
+        method = POST;
+        reason = "no error";
+        "request_body_size" = 2896;
+        "request_start" = "2025-09-19T15:13:51.033Z";
+        "response_body_size" = 2;
+        "status_code" = 200;
+        url = "https://otel-mobile.doordash.com/v1/metr
+[RESPONSE BODY]
+...

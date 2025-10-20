@@ -1,0 +1,47 @@
+{
+    "Apps":  {
+                 "postmates":  {
+                                   "Color":  "Blue",
+                                   "BundleID":  "com.postmates.fleet",
+                                   "Name":  "Postmates Fleet"
+                               },
+                 "doordash":  {
+                                  "Color":  "Yellow",
+                                  "BundleID":  "com.doordash.dasher",
+                                  "Name":  "DoorDash Dasher"
+                              },
+                 "lyft":  {
+                              "Color":  "Magenta",
+                              "BundleID":  "com.lyft.driver",
+                              "Name":  "Lyft Driver"
+                          },
+                 "uber":  {
+                              "Color":  "Cyan",
+                              "BundleID":  "com.ubercab.driver",
+                              "Name":  "Uber Driver"
+                          },
+                 "grubhub":  {
+                                 "Color":  "Red",
+                                 "BundleID":  "com.grubhub.driver",
+                                 "Name":  "GrubHub Driver"
+                             }
+             },
+    "Network":  {
+                    "SSHHost":  "127.0.0.1",
+                    "ProxyPort":  8000,
+                    "SSHUser":  "root",
+                    "WindowsIP":  "192.168.50.9",
+                    "iPhoneIP":  "192.168.50.113",
+                    "SSHPort":  22,
+                    "SSHPass":  "alpine",
+                    "FridaPort":  27042
+                },
+    "Settings":  {
+                     "HealthCheckInterval":  10,
+                     "LogLevel":  "INFO",
+                     "ShowDebugOutput":  false,
+                     "MaxRetries":  3,
+                     "AutoStartHTTPToolkit":  true,
+                     "RetryDelay":  5
+                 }
+}

@@ -1,0 +1,70 @@
+{
+    "versions": {
+        "iOS16": {
+            "displayName": "iOS 16.3.1 (Original)",
+            "systemVersion": "16.3.1",
+            "cfNetwork": "1404.0.5",
+            "darwin": "22.3.0",
+            "buildNumber": "20D67",
+            "description": "Keep original iOS version (may be blocked)"
+        },
+        "iOS17": {
+            "displayName": "iOS 17.5.1 (Stable)",
+            "systemVersion": "17.5.1",
+            "cfNetwork": "1485.0.5",
+            "darwin": "23.5.0",
+            "buildNumber": "21F79",
+            "description": "Spoof as iOS 17.5.1 - Most compatible"
+        },
+        "iOS17_6": {
+            "displayName": "iOS 17.6.1 (Recent)",
+            "systemVersion": "17.6.1",
+            "cfNetwork": "1490.0.4",
+            "darwin": "23.6.0",
+            "buildNumber": "21G93",
+            "description": "Spoof as iOS 17.6.1 - Recent stable"
+        },
+        "iOS18": {
+            "displayName": "iOS 18.0 (Latest)",
+            "systemVersion": "18.0",
+            "cfNetwork": "1492.0.1",
+            "darwin": "24.0.0",
+            "buildNumber": "22A3354",
+            "description": "Spoof as iOS 18.0 - Latest version"
+        },
+        "iOS18_1": {
+            "displayName": "iOS 18.1 (Bleeding Edge)",
+            "systemVersion": "18.1",
+            "cfNetwork": "1494.0.7",
+            "darwin": "24.1.0",
+            "buildNumber": "22B83",
+            "description": "Spoof as iOS 18.1 - Newest available"
+        },
+        "custom": {
+            "displayName": "Custom Version",
+            "systemVersion": "",
+            "cfNetwork": "",
+            "darwin": "",
+            "buildNumber": "",
+            "description": "Enter custom iOS version details"
+        }
+    },
+    "appRequirements": {
+        "doordash": {
+            "minVersion": "17.0",
+            "recommendedVersion": "iOS17_6",
+            "notes": "DoorDash blocks iOS 16 and below"
+        },
+        "uber": {
+            "minVersion": "16.0",
+            "recommendedVersion": "iOS17",
+            "notes": "Uber works with iOS 16+"
+        },
+        "lyft": {
+            "minVersion": "16.0",
+            "recommendedVersion": "iOS17",
+            "notes": "Lyft works with iOS 16+"
+        }
+    },
+    "defaultVersion": "iOS17_6"
+}
