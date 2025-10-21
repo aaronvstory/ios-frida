@@ -1,116 +1,207 @@
-# Frida Live Network Monitor 🚀
+# Frida Live Development Framework 🚀
 
-> Bypass HTTP Toolkit proxy detection issues with direct Frida injection for iOS apps
+[![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-blue.svg)](https://github.com/aaronvstory/ios-frida)
+[![Frida](https://img.shields.io/badge/Frida-16.0%2B-orange.svg)](https://frida.re/)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-green.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Research%20Only-red.svg)](#license--security)
 
-## Quick Start (3 Steps)
+> Comprehensive mobile app interception toolkit for security research and network traffic analysis. Supports both iOS (SSH tunnel) and Android (USB/ADB) with live script development capabilities and HTTP Toolkit integration.
 
-### 1. Prerequisites ✅
-- 3uTools SSH tunnel opened (you already have this!)
-- Jailbroken iPhone SE2 (iOS 16.3.1 Dopamine)
-- HTTP Toolkit running at `192.168.50.9:8000`
-- DoorDash Dasher app installed
+## 🎯 Quick Start
 
-### 2. Launch the Monitor
+### Android (Primary - Recommended)
+
+**One-Click Launch:**
 ```bash
-FRIDA-LIVE-MONITOR.bat
+DASHER-LIVE-MONITOR.bat
 ```
 
-### 3. Choose Your Mode
-- **SPAWN MODE** (Recommended) - Restarts app, most reliable
-- **ATTACH MODE** - Keeps session alive, may need refresh
+**Or Interactive REPL:**
+```bash
+python live-frida-repl.py com.doordash.driverapp
+```
 
-**That's it!** Traffic will appear in HTTP Toolkit.
+**Prerequisites:**
+- ✅ Android device connected via USB (Pixel 4 tested)
+- ✅ USB debugging enabled
+- ✅ Frida installed (`pip install frida-tools`)
+
+### iOS (Legacy - SSH Tunnel)
+
+**Launch:**
+```bash
+FRIDA-LIVE-MONITOR-THIS-WORKS.bat
+```
+
+**Prerequisites:**
+- ✅ 3uTools SSH tunnel opened (127.0.0.1:22 → iPhone:22)
+- ✅ Jailbroken iPhone (iOS 16.3.1+ with Dopamine/RootHide tested)
+- ✅ Frida server installed on device
 
 ---
 
-## What This Does
+## ✨ Features
 
-### The Problem
-HTTP Toolkit error when trying to intercept:
+### Core Capabilities
+- 🔥 **Live Interactive REPL** - Hot-reload Frida scripts during development
+- 📱 **Dual Platform Support** - Android (USB) and iOS (SSH tunnel)
+- 🔓 **SSL Pinning Bypass** - Universal SSL/TLS certificate unpinning
+- 🌐 **HTTP Toolkit Integration** - Route and inspect HTTPS traffic
+- 🔍 **Network Monitoring** - Real-time request/response logging
+- ⚡ **Hot Reload** - Save, edit, and reload scripts without restart
+- 📊 **Built-in Templates** - Ready-to-use script templates for common tasks
+
+### What Problems Does This Solve?
+
+**Before:** HTTP Toolkit proxy detection fails on jailbroken/rooted devices
 ```
-Failed to intercept com.doordash.dasher: Proxy IP detection on target device
-failed for port 8000 and IPs ["192.168.50.141 (unreachable-from"]
+Error: Proxy IP detection on target device failed
 ```
 
-### Our Solution
-✅ Direct SSH tunnel via 3uTools
-✅ Frida script injection (no iOS proxy settings needed)
-✅ SSL pinning bypass
-✅ Traffic routing to HTTP Toolkit
-
----
-
-## Project Structure
-
+**After:** Direct Frida injection bypasses detection entirely
 ```
-📦 ios frida/
-├── 🎯 FRIDA-LIVE-MONITOR.bat          ← START HERE (main launcher)
-├── 🐍 live-network-monitor.py          ← Advanced Python monitor
-├── 📖 LIVE-MANIPULATION-GUIDE.md       ← Complete documentation
-├── 🔧 QUICK-START.md                   ← Fast setup guide
-│
-├── 🔑 Core Files
-│   ├── frida-spawn.py                  ← Spawn mode handler
-│   ├── frida-attach.py                 ← Attach mode handler
-│   ├── plink.exe                       ← SSH tunnel utility
-│   └── requirements.txt                ← Python dependencies
-│
-├── 📁 config/
-│   └── frida-config.json               ← Network & app settings
-│
-├── 📜 frida-interception-and-unpinning/
-│   ├── enhanced-universal-ssl-pinning-bypass-with-proxy-fixed.js  ← Best for spawn
-│   ├── attach-mode-proxy.js                                       ← Best for attach
-│   └── ... (other working scripts)
-│
-├── 📊 logs/                            ← Monitor logs
-└── 📦 archive/                         ← Old files (if needed)
-    ├── old-launchers/
-    ├── old-scripts/
-    └── old-docs/
+✅ Frida connects via USB (Android) or SSH tunnel (iOS)
+✅ Injects proxy config into app memory directly
+✅ Bypasses SSL pinning
+✅ Routes all traffic to HTTP Toolkit
 ```
 
 ---
 
-## Common Commands
+## 📦 Installation
 
-### Basic Usage
+### 1. Clone Repository
 ```bash
-# Main launcher (easiest)
-FRIDA-LIVE-MONITOR.bat
-
-# Advanced Python monitor
-python live-network-monitor.py com.doordash.dasher
-
-# Attach to running app (PID 1234)
-python live-network-monitor.py com.doordash.dasher --attach 1234
-
-# Custom log file
-python live-network-monitor.py com.doordash.dasher --log-file my-traffic.log
+git clone https://github.com/aaronvstory/ios-frida.git
+cd ios-frida
 ```
 
-### Manual Frida Operations
+### 2. Install Python Dependencies
 ```bash
-# Spawn mode (app restarts)
-python frida-spawn.py com.doordash.dasher frida-interception-and-unpinning\enhanced-universal-ssl-pinning-bypass-with-proxy-fixed.js
-
-# Attach mode (stay logged in)
-python frida-attach.py [PID] frida-interception-and-unpinning\attach-mode-proxy.js
-
-# Find app PID
-frida-ps -Uai | findstr "dasher"
+pip install -r requirements.txt
 ```
 
-### SSH Tunnel Management
+**Required packages:**
+- `frida-tools >= 12.0.0`
+- `frida >= 16.0.0`
+- `colorama >= 0.4.6`
+
+### 3. Platform-Specific Setup
+
+#### Android
 ```bash
-# Test SSH connection (via 3uTools tunnel at port 10022)
-plink.exe -P 10022 root@127.0.0.1 -pw alpine "echo Connected"
+# Enable USB debugging on device
+# Connect device via USB
+# Verify connection
+adb devices
+python -m frida_tools.ps -U
+```
 
-# Start Frida server on iPhone
-plink.exe -P 10022 root@127.0.0.1 -pw alpine "/usr/sbin/frida-server &"
+#### iOS
+```bash
+# Install Frida server on jailbroken iPhone
+# Open SSH tunnel via 3uTools
+# Verify: plink.exe -P 10022 root@127.0.0.1 -pw alpine "echo Connected"
+```
 
-# Check Frida server status
-plink.exe -P 10022 root@127.0.0.1 -pw alpine "ps aux | grep frida-server"
+---
+
+## 📁 Project Structure
+
+```
+📦 ios-frida/
+│
+├── 🎯 Android Launchers
+│   ├── DASHER-LIVE-MONITOR.bat        ← Primary: Attach to running app
+│   ├── DASHER-SPAWN-MONITOR.bat       ← Spawn fresh app instance
+│   └── live-frida-repl.py             ← 🔥 Interactive REPL (RECOMMENDED)
+│
+├── 🍎 iOS Launchers
+│   ├── FRIDA-LIVE-MONITOR-THIS-WORKS.bat  ← iOS SSH-based launcher
+│   ├── frida-spawn-ios.py             ← iOS spawn variant
+│   └── frida-spawn-ios-direct.py      ← iOS direct spawn
+│
+├── 🐍 Core Python Scripts
+│   ├── frida-spawn.py                 ← Spawn mode (restarts app)
+│   ├── frida-attach.py                ← Attach mode (preserves session)
+│   ├── live-monitor.py                ← Monitor tool
+│   └── live-network-monitor.py        ← Advanced network monitor
+│
+├── 📜 Injection Scripts
+│   └── frida-interception-and-unpinning/
+│       ├── enhanced-universal-ssl-pinning-bypass-with-proxy-fixed.js (iOS)
+│       ├── attach-mode-proxy.js       ← iOS attach mode
+│       └── (Android templates built into live-frida-repl.py)
+│
+├── 📖 Documentation
+│   ├── START-HERE.md                  ← 🎯 Primary guide (Android)
+│   ├── LIVE-FRIDA-CONNECTION-GUIDE.md ← Complete Android guide
+│   ├── LIVE-MANIPULATION-GUIDE.md     ← iOS network manipulation
+│   └── FRIDA-CONNECTION-COMPLETE.md   ← Connection status summary
+│
+├── ⚙️ Configuration
+│   ├── config/frida-config.json       ← Network & app settings
+│   └── requirements.txt               ← Python dependencies
+│
+└── 📁 Other
+    ├── logs/                          ← Runtime logs
+    ├── docs/                          ← Additional documentation
+    └── archive/                       ← Historical files
+```
+
+---
+
+## 💻 Usage
+
+### Android (Interactive REPL - Recommended)
+
+```bash
+# Start REPL - attach to running app
+python live-frida-repl.py com.doordash.driverapp
+
+# Start REPL - spawn app fresh
+python live-frida-repl.py com.doordash.driverapp --spawn
+
+# Inside REPL:
+frida> load all          # Complete monitoring + SSL bypass + proxy
+frida> load network      # Network monitoring only
+frida> load ssl-unpin    # SSL unpinning only
+frida> load proxy        # Proxy configuration only
+frida> js <code>         # Execute JavaScript in app context
+frida> save script.js    # Save current script
+frida> run script.js     # Load and execute script file
+frida> quit              # Exit
+```
+
+### Android (Quick Launchers)
+```bash
+# Attach to running Dasher app (preserves session)
+DASHER-LIVE-MONITOR.bat
+
+# Spawn fresh Dasher instance (clean state)
+DASHER-SPAWN-MONITOR.bat
+```
+
+### iOS (Legacy)
+```bash
+# SSH-based launcher (requires 3uTools tunnel)
+FRIDA-LIVE-MONITOR-THIS-WORKS.bat
+
+# Manual operations
+python frida-spawn.py com.doordash.dasher frida-interception-and-unpinning/enhanced-universal-ssl-pinning-bypass-with-proxy-fixed.js
+python frida-attach.py <PID> frida-interception-and-unpinning/attach-mode-proxy.js
+```
+
+### Universal Commands
+```bash
+# List running apps
+python -m frida_tools.ps -Uai
+
+# Find specific app
+python -m frida_tools.ps -Uai | grep -i dasher
+
+# Get device info
+python -c "import frida; device = frida.get_usb_device(); print(f'Device: {device.name}, ID: {device.id}')"
 ```
 
 ---
@@ -291,24 +382,66 @@ For issues or questions:
 
 ---
 
-## License & Security
+## 📚 Documentation
 
-⚠️ **For security research and authorized testing only**
-
-This tool is for:
-- ✅ Security research on your own devices
-- ✅ App debugging and development
-- ✅ Network analysis and testing
-
-Not for:
-- ❌ Unauthorized access
-- ❌ Bypassing app security for malicious purposes
-- ❌ Production environment attacks
-
-Default iOS root password (`alpine`) should be changed on production devices.
+| Document | Description | When to Read |
+|----------|-------------|--------------|
+| [`START-HERE.md`](START-HERE.md) | 🎯 Primary guide for Android development | **Start here** |
+| [`LIVE-FRIDA-CONNECTION-GUIDE.md`](LIVE-FRIDA-CONNECTION-GUIDE.md) | Complete Android development guide (20KB) | Detailed reference |
+| [`LIVE-MANIPULATION-GUIDE.md`](LIVE-MANIPULATION-GUIDE.md) | iOS network manipulation guide | iOS users |
+| [`FRIDA-CONNECTION-COMPLETE.md`](FRIDA-CONNECTION-COMPLETE.md) | Connection status summary | Quick overview |
+| [`VISUAL-QUICK-GUIDE.md`](VISUAL-QUICK-GUIDE.md) | Visual walkthrough | Visual learners |
+| [`cleanup.md`](cleanup.md) | Project organization manifest | Understanding structure |
 
 ---
 
-**Happy Monitoring! 🎉**
+## 🛡️ Security & Ethics
 
-For detailed usage examples and advanced techniques, see **LIVE-MANIPULATION-GUIDE.md**
+### ⚠️ Authorized Use Only
+
+This framework is designed for:
+- ✅ **Security research** on owned devices
+- ✅ **App debugging and development**
+- ✅ **Network analysis and testing**
+- ✅ **Penetration testing with authorization**
+- ✅ **Educational purposes**
+
+**NOT for:**
+- ❌ Unauthorized access to systems
+- ❌ Bypassing security for malicious purposes
+- ❌ Production environment attacks without authorization
+- ❌ Any illegal activities
+
+### Default Credentials
+- iOS default root password: `alpine` (⚠️ **change on production devices!**)
+- SSH port (3uTools): `10022`
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## 🙏 Acknowledgments
+
+- [Frida](https://frida.re/) - Dynamic instrumentation toolkit
+- [HTTP Toolkit](https://httptoolkit.tech/) - HTTP debugging proxy
+- [3uTools](http://www.3u.com/) - iOS device management
+
+---
+
+## 📄 License
+
+This project is intended for security research and educational purposes only. Use responsibly and only on systems you own or have explicit permission to test.
+
+---
+
+**Happy Researching! 🎉**
+
+For detailed usage examples and advanced techniques, see the documentation links above.
